@@ -1,6 +1,7 @@
-const express=require("express");
-const mongoose=require("mongoose");
+const express = require("express");
+const mongoose = require("mongoose");
  
+
 
 const app=express();
 app.use(express.json());
@@ -14,14 +15,18 @@ const bookSchema=new mongoose.Schema(
         name:{type:String, required:true},
         author:{type:String,required:true},
         body:{type:String,required:false},
-        sectionsId:{
-            type:mongoose.Schema.Types.ObjectId, ref:"sections",required:true
-        },
-        authorsId:{
-            type:mongoose.Schema.Types.ObjectId, ref:"authors", required:true
-        }
+    //     sectionsId:{
+    //         type:mongoose.Schema.Types.ObjectId, ref:"sections",required:true
+    //     },
+    //     authorsId:{
+    //         type:mongoose.Schema.Types.ObjectId, ref:"authors", required:true
+    //     }
 
-    },
+    // },
+    // {
+    //     versionKey:false,
+
+    }
      
 )
 
