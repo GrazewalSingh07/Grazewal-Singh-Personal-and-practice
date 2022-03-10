@@ -1,0 +1,1523 @@
+Microsoft Windows [Version 10.0.22000.493]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Grazewal Singh>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("be6ec42c-0868-4781-8799-3d87b1c22544") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-10T06:32:50.342+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> use web15
+switched to db web15
+> db.movies.find({"movie_name":{$eq:"Wag the Dog"}})
+{ "_id" : ObjectId("62284e9376bc0a735af2c675"), "id" : 1, "movie_name" : "Wag the Dog", "movie_genre" : "Comedy", "year" : 2012, "budget" : 9027 }
+> db.movies.find({"movie_name":{$ne:"Wag the Dog"}}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c676"),
+        "id" : 2,
+        "movie_name" : "My Sex Life... or How I Got Into an Argument (Comment je me suis disputé... (ma vie sexuelle))",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2012,
+        "budget" : 9391
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67c"),
+        "id" : 8,
+        "movie_name" : "Jack and Sarah",
+        "movie_genre" : "Romance",
+        "year" : 2017,
+        "budget" : 15156
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67e"),
+        "id" : 10,
+        "movie_name" : "Late Night Shopping",
+        "movie_genre" : "Comedy",
+        "year" : 2011,
+        "budget" : 18258
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c681"),
+        "id" : 13,
+        "movie_name" : "Manufacturing Consent: Noam Chomsky and the Media",
+        "movie_genre" : "Documentary|War",
+        "year" : 2000,
+        "budget" : 10687
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c686"),
+        "id" : 18,
+        "movie_name" : "Vidal Sassoon: The Movie",
+        "movie_genre" : "Documentary",
+        "year" : 1997,
+        "budget" : 13946
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c687"),
+        "id" : 19,
+        "movie_name" : "Animal",
+        "movie_genre" : "Action|Comedy|Romance",
+        "year" : 1990,
+        "budget" : 10481
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c689"),
+        "id" : 21,
+        "movie_name" : "Coup de torchon (Clean Slate)",
+        "movie_genre" : "Crime",
+        "year" : 2003,
+        "budget" : 16250
+}
+Type "it" for more
+> db.movies.find({"budget":{$gte:10000}}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67c"),
+        "id" : 8,
+        "movie_name" : "Jack and Sarah",
+        "movie_genre" : "Romance",
+        "year" : 2017,
+        "budget" : 15156
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67e"),
+        "id" : 10,
+        "movie_name" : "Late Night Shopping",
+        "movie_genre" : "Comedy",
+        "year" : 2011,
+        "budget" : 18258
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c681"),
+        "id" : 13,
+        "movie_name" : "Manufacturing Consent: Noam Chomsky and the Media",
+        "movie_genre" : "Documentary|War",
+        "year" : 2000,
+        "budget" : 10687
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c686"),
+        "id" : 18,
+        "movie_name" : "Vidal Sassoon: The Movie",
+        "movie_genre" : "Documentary",
+        "year" : 1997,
+        "budget" : 13946
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c687"),
+        "id" : 19,
+        "movie_name" : "Animal",
+        "movie_genre" : "Action|Comedy|Romance",
+        "year" : 1990,
+        "budget" : 10481
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c689"),
+        "id" : 21,
+        "movie_name" : "Coup de torchon (Clean Slate)",
+        "movie_genre" : "Crime",
+        "year" : 2003,
+        "budget" : 16250
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68a"),
+        "id" : 22,
+        "movie_name" : "Woman That Dreamed About a Man, The (Kvinden der drømte om en mand)",
+        "movie_genre" : "Drama",
+        "year" : 1990,
+        "budget" : 17116
+}
+Type "it" for more
+> db.movies.find({"budget":{$lte:15000}}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c675"),
+        "id" : 1,
+        "movie_name" : "Wag the Dog",
+        "movie_genre" : "Comedy",
+        "year" : 2012,
+        "budget" : 9027
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c676"),
+        "id" : 2,
+        "movie_name" : "My Sex Life... or How I Got Into an Argument (Comment je me suis disputé... (ma vie sexuelle))",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2012,
+        "budget" : 9391
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c681"),
+        "id" : 13,
+        "movie_name" : "Manufacturing Consent: Noam Chomsky and the Media",
+        "movie_genre" : "Documentary|War",
+        "year" : 2000,
+        "budget" : 10687
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c686"),
+        "id" : 18,
+        "movie_name" : "Vidal Sassoon: The Movie",
+        "movie_genre" : "Documentary",
+        "year" : 1997,
+        "budget" : 13946
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c687"),
+        "id" : 19,
+        "movie_name" : "Animal",
+        "movie_genre" : "Action|Comedy|Romance",
+        "year" : 1990,
+        "budget" : 10481
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68c"),
+        "id" : 24,
+        "movie_name" : "Frankie and Alice",
+        "movie_genre" : "Drama",
+        "year" : 2018,
+        "budget" : 13942
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68d"),
+        "id" : 25,
+        "movie_name" : "Formula 51",
+        "movie_genre" : "Action|Comedy|Crime|Thriller",
+        "year" : 2006,
+        "budget" : 13740
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c690"),
+        "id" : 28,
+        "movie_name" : "Portrait Werner Herzog",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12414
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c695"),
+        "id" : 33,
+        "movie_name" : "Welcome to Dongmakgol",
+        "movie_genre" : "Comedy|Drama|War",
+        "year" : 2012,
+        "budget" : 12855
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c697"),
+        "id" : 35,
+        "movie_name" : "George & A.J.",
+        "movie_genre" : "Animation|Children|Comedy",
+        "year" : 1990,
+        "budget" : 12276
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c699"),
+        "id" : 37,
+        "movie_name" : "Westerner, The",
+        "movie_genre" : "Western",
+        "year" : 2010,
+        "budget" : 9378
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69a"),
+        "id" : 38,
+        "movie_name" : "Three Wise Men (Kolme viisasta miestä)",
+        "movie_genre" : "Drama",
+        "year" : 2007,
+        "budget" : 12953
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69b"),
+        "id" : 39,
+        "movie_name" : "I'm Here",
+        "movie_genre" : "Drama",
+        "year" : 1992,
+        "budget" : 14864
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69d"),
+        "id" : 41,
+        "movie_name" : "Blue and the Gray, The",
+        "movie_genre" : "Drama|War",
+        "year" : 2009,
+        "budget" : 12349
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69e"),
+        "id" : 42,
+        "movie_name" : "Solaris (Solyaris)",
+        "movie_genre" : "Drama|Mystery|Sci-Fi",
+        "year" : 2001,
+        "budget" : 10772
+}
+Type "it" for more
+> db.movies.find({$and:[{"year":{$gt:2000}},{"budget":{$gt:1000}}]}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c675"),
+        "id" : 1,
+        "movie_name" : "Wag the Dog",
+        "movie_genre" : "Comedy",
+        "year" : 2012,
+        "budget" : 9027
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c676"),
+        "id" : 2,
+        "movie_name" : "My Sex Life... or How I Got Into an Argument (Comment je me suis disputé... (ma vie sexuelle))",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2012,
+        "budget" : 9391
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67c"),
+        "id" : 8,
+        "movie_name" : "Jack and Sarah",
+        "movie_genre" : "Romance",
+        "year" : 2017,
+        "budget" : 15156
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67e"),
+        "id" : 10,
+        "movie_name" : "Late Night Shopping",
+        "movie_genre" : "Comedy",
+        "year" : 2011,
+        "budget" : 18258
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c689"),
+        "id" : 21,
+        "movie_name" : "Coup de torchon (Clean Slate)",
+        "movie_genre" : "Crime",
+        "year" : 2003,
+        "budget" : 16250
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68c"),
+        "id" : 24,
+        "movie_name" : "Frankie and Alice",
+        "movie_genre" : "Drama",
+        "year" : 2018,
+        "budget" : 13942
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68d"),
+        "id" : 25,
+        "movie_name" : "Formula 51",
+        "movie_genre" : "Action|Comedy|Crime|Thriller",
+        "year" : 2006,
+        "budget" : 13740
+}
+Type "it" for more
+> db.movies.find({$or:[{"year":{$gt:2000}},{"budget":{$gt:1000}}]}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c675"),
+        "id" : 1,
+        "movie_name" : "Wag the Dog",
+        "movie_genre" : "Comedy",
+        "year" : 2012,
+        "budget" : 9027
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c676"),
+        "id" : 2,
+        "movie_name" : "My Sex Life... or How I Got Into an Argument (Comment je me suis disputé... (ma vie sexuelle))",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2012,
+        "budget" : 9391
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67c"),
+        "id" : 8,
+        "movie_name" : "Jack and Sarah",
+        "movie_genre" : "Romance",
+        "year" : 2017,
+        "budget" : 15156
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67e"),
+        "id" : 10,
+        "movie_name" : "Late Night Shopping",
+        "movie_genre" : "Comedy",
+        "year" : 2011,
+        "budget" : 18258
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c681"),
+        "id" : 13,
+        "movie_name" : "Manufacturing Consent: Noam Chomsky and the Media",
+        "movie_genre" : "Documentary|War",
+        "year" : 2000,
+        "budget" : 10687
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c686"),
+        "id" : 18,
+        "movie_name" : "Vidal Sassoon: The Movie",
+        "movie_genre" : "Documentary",
+        "year" : 1997,
+        "budget" : 13946
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c687"),
+        "id" : 19,
+        "movie_name" : "Animal",
+        "movie_genre" : "Action|Comedy|Romance",
+        "year" : 1990,
+        "budget" : 10481
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+Type "it" for more
+> db.movies.find({$nor:[{"year":{$gt:2000}},{"budget":{$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6c0"),
+        "id" : 76,
+        "movie_name" : "Mother of George",
+        "movie_genre" : "Drama",
+        "year" : 1990,
+        "budget" : 9079
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6cd"),
+        "id" : 89,
+        "movie_name" : "You Can't Win 'Em All",
+        "movie_genre" : "Adventure|Comedy|War",
+        "year" : 1992,
+        "budget" : 9516
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6df"),
+        "id" : 107,
+        "movie_name" : "Too Many Husbands",
+        "movie_genre" : "Comedy|Romance",
+        "year" : 1994,
+        "budget" : 9422
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6f1"),
+        "id" : 125,
+        "movie_name" : "Suspicious River",
+        "movie_genre" : "Drama",
+        "year" : 1993,
+        "budget" : 9712
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6f2"),
+        "id" : 126,
+        "movie_name" : "Destiny in Space",
+        "movie_genre" : "Documentary|IMAX",
+        "year" : 1993,
+        "budget" : 9827
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c704"),
+        "id" : 144,
+        "movie_name" : "House of Small Cubes, The (Tsumiki no ie)",
+        "movie_genre" : "Animation|Drama",
+        "year" : 1995,
+        "budget" : 9722
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c736"),
+        "id" : 194,
+        "movie_name" : "Nicholas Nickleby",
+        "movie_genre" : "Drama|Romance",
+        "year" : 1990,
+        "budget" : 9088
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c73c"),
+        "id" : 200,
+        "movie_name" : "Cave, The",
+        "movie_genre" : "Action|Adventure|Horror|Mystery|Sci-Fi|Thriller",
+        "year" : 1990,
+        "budget" : 9656
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c73e"),
+        "id" : 202,
+        "movie_name" : "Hamlet",
+        "movie_genre" : "Drama",
+        "year" : 1997,
+        "budget" : 9462
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c740"),
+        "id" : 204,
+        "movie_name" : "School for Scoundrels",
+        "movie_genre" : "Comedy|Crime",
+        "year" : 1999,
+        "budget" : 9640
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c74b"),
+        "id" : 215,
+        "movie_name" : "Rollerball",
+        "movie_genre" : "Action|Drama|Sci-Fi",
+        "year" : 1996,
+        "budget" : 9536
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c74f"),
+        "id" : 219,
+        "movie_name" : "Seed",
+        "movie_genre" : "Horror",
+        "year" : 1996,
+        "budget" : 9126
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c763"),
+        "id" : 239,
+        "movie_name" : "The 3 Rs",
+        "movie_genre" : "(no genres listed)",
+        "year" : 1990,
+        "budget" : 9955
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c77b"),
+        "id" : 263,
+        "movie_name" : "That Obscure Object of Desire (Cet obscur objet du désir)",
+        "movie_genre" : "Drama",
+        "year" : 1997,
+        "budget" : 9862
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c79b"),
+        "id" : 295,
+        "movie_name" : "Dragon Ball: The Path to Power (Doragon bôru: Saikyô e no michi)",
+        "movie_genre" : "Action|Adventure|Animation|Children",
+        "year" : 1994,
+        "budget" : 9288
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c7c8"),
+        "id" : 340,
+        "movie_name" : "But I'm a Cheerleader",
+        "movie_genre" : "Comedy",
+        "year" : 1997,
+        "budget" : 9962
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c7fc"),
+        "id" : 392,
+        "movie_name" : "Swimming to Cambodia",
+        "movie_genre" : "Drama",
+        "year" : 1998,
+        "budget" : 9369
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c85f"),
+        "id" : 491,
+        "movie_name" : "Haunted Honeymoon",
+        "movie_genre" : "Comedy",
+        "year" : 1991,
+        "budget" : 9372
+}
+> db.movies.find({$or:[{$not:{"year":{$eq:2000}},{"budget":{$gt:10000}}}]}).pretty()
+uncaught exception: SyntaxError: expected property name, got '{' :
+@(shell):1:47
+> db.movies.find({$or:[{$not:{"year":{$eq:2000}},{$not:{"budget":{$eq:10000}}}}]}).pretty()
+uncaught exception: SyntaxError: expected property name, got '{' :
+@(shell):1:47
+> db.movies.find({$or:[{"year":{$not:{$eq:2000}}},{"budget":{$not:{$gt:10000}}}]}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c675"),
+        "id" : 1,
+        "movie_name" : "Wag the Dog",
+        "movie_genre" : "Comedy",
+        "year" : 2012,
+        "budget" : 9027
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c676"),
+        "id" : 2,
+        "movie_name" : "My Sex Life... or How I Got Into an Argument (Comment je me suis disputé... (ma vie sexuelle))",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2012,
+        "budget" : 9391
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67c"),
+        "id" : 8,
+        "movie_name" : "Jack and Sarah",
+        "movie_genre" : "Romance",
+        "year" : 2017,
+        "budget" : 15156
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67d"),
+        "id" : 9,
+        "movie_name" : "Hannah and Her Sisters",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "year" : 2015,
+        "budget" : 13573
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67e"),
+        "id" : 10,
+        "movie_name" : "Late Night Shopping",
+        "movie_genre" : "Comedy",
+        "year" : 2011,
+        "budget" : 18258
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c686"),
+        "id" : 18,
+        "movie_name" : "Vidal Sassoon: The Movie",
+        "movie_genre" : "Documentary",
+        "year" : 1997,
+        "budget" : 13946
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c687"),
+        "id" : 19,
+        "movie_name" : "Animal",
+        "movie_genre" : "Action|Comedy|Romance",
+        "year" : 1990,
+        "budget" : 10481
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c688"),
+        "id" : 20,
+        "movie_name" : "Sunlight Jr.",
+        "movie_genre" : "Drama",
+        "year" : 2012,
+        "budget" : 11106
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c689"),
+        "id" : 21,
+        "movie_name" : "Coup de torchon (Clean Slate)",
+        "movie_genre" : "Crime",
+        "year" : 2003,
+        "budget" : 16250
+}
+Type "it" for more
+> db.movies.find({$and:[{"year":{$gt:2000}},{"year":{$lt:2010}}]}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c678"),
+        "id" : 4,
+        "movie_name" : "Territories ",
+        "movie_genre" : "Crime|Horror",
+        "year" : 2008,
+        "budget" : 17929
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c679"),
+        "id" : 5,
+        "movie_name" : "The Stanford Prison Experiment",
+        "movie_genre" : "Drama|Thriller",
+        "year" : 2009,
+        "budget" : 15595
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67a"),
+        "id" : 6,
+        "movie_name" : "World Without Thieves, A (Tian xia wu zei)",
+        "movie_genre" : "Action|Crime|Drama",
+        "year" : 2006,
+        "budget" : 10890
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67b"),
+        "id" : 7,
+        "movie_name" : "Officer and a Gentleman, An",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2002,
+        "budget" : 19313
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c684"),
+        "id" : 16,
+        "movie_name" : "Maniac",
+        "movie_genre" : "Horror",
+        "year" : 2008,
+        "budget" : 15411
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c685"),
+        "id" : 17,
+        "movie_name" : "Ruling Class, The",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2002,
+        "budget" : 15248
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c689"),
+        "id" : 21,
+        "movie_name" : "Coup de torchon (Clean Slate)",
+        "movie_genre" : "Crime",
+        "year" : 2003,
+        "budget" : 16250
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c68d"),
+        "id" : 25,
+        "movie_name" : "Formula 51",
+        "movie_genre" : "Action|Comedy|Crime|Thriller",
+        "year" : 2006,
+        "budget" : 13740
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c690"),
+        "id" : 28,
+        "movie_name" : "Portrait Werner Herzog",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12414
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69a"),
+        "id" : 38,
+        "movie_name" : "Three Wise Men (Kolme viisasta miestä)",
+        "movie_genre" : "Drama",
+        "year" : 2007,
+        "budget" : 12953
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69c"),
+        "id" : 40,
+        "movie_name" : "Time of Favor (Ha-Hesder)",
+        "movie_genre" : "Drama|War",
+        "year" : 2004,
+        "budget" : 15070
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69d"),
+        "id" : 41,
+        "movie_name" : "Blue and the Gray, The",
+        "movie_genre" : "Drama|War",
+        "year" : 2009,
+        "budget" : 12349
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c69e"),
+        "id" : 42,
+        "movie_name" : "Solaris (Solyaris)",
+        "movie_genre" : "Drama|Mystery|Sci-Fi",
+        "year" : 2001,
+        "budget" : 10772
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6a3"),
+        "id" : 47,
+        "movie_name" : "Ski Patrol",
+        "movie_genre" : "Action|War",
+        "year" : 2002,
+        "budget" : 15562
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6a5"),
+        "id" : 49,
+        "movie_name" : "A mí las mujeres ni fu ni fa",
+        "movie_genre" : "Comedy|Musical",
+        "year" : 2009,
+        "budget" : 14664
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6a6"),
+        "id" : 50,
+        "movie_name" : "Flesh",
+        "movie_genre" : "Drama",
+        "year" : 2007,
+        "budget" : 13157
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6a8"),
+        "id" : 52,
+        "movie_name" : "Flight of the Intruder",
+        "movie_genre" : "Action|War",
+        "year" : 2005,
+        "budget" : 14489
+}
+Type "it" for more
+> db.movies.find({}).sort({"year":-1}).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6ae"),
+        "id" : 58,
+        "movie_name" : "Fingersmith",
+        "movie_genre" : "Crime|Drama|Romance",
+        "year" : 2020,
+        "budget" : 10679
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6ba"),
+        "id" : 70,
+        "movie_name" : "Feeling Minnesota",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2020,
+        "budget" : 17578
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6cf"),
+        "id" : 91,
+        "movie_name" : "Born to Be Wild",
+        "movie_genre" : "Documentary|IMAX",
+        "year" : 2020,
+        "budget" : 10438
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c6f9"),
+        "id" : 133,
+        "movie_name" : "Angels Fall",
+        "movie_genre" : "Drama|Romance|Thriller",
+        "year" : 2020,
+        "budget" : 14371
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c703"),
+        "id" : 143,
+        "movie_name" : "The Ghosts in Our Machine",
+        "movie_genre" : "Documentary",
+        "year" : 2020,
+        "budget" : 19448
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c719"),
+        "id" : 165,
+        "movie_name" : "Man on a Ledge",
+        "movie_genre" : "Crime|Thriller",
+        "year" : 2020,
+        "budget" : 15650
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c737"),
+        "id" : 195,
+        "movie_name" : "6 Days to Air: The Making of South Park",
+        "movie_genre" : "Documentary",
+        "year" : 2020,
+        "budget" : 10144
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c73a"),
+        "id" : 198,
+        "movie_name" : "Until the End of the World (Bis ans Ende der Welt)",
+        "movie_genre" : "Adventure|Drama|Sci-Fi",
+        "year" : 2020,
+        "budget" : 10842
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c74e"),
+        "id" : 218,
+        "movie_name" : "Lady Vanishes, The",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "year" : 2020,
+        "budget" : 15353
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c75b"),
+        "id" : 231,
+        "movie_name" : "French Minister, The (Quai d'Orsay)",
+        "movie_genre" : "Comedy",
+        "year" : 2020,
+        "budget" : 10369
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c75c"),
+        "id" : 232,
+        "movie_name" : "Lust for Love",
+        "movie_genre" : "Comedy|Romance",
+        "year" : 2020,
+        "budget" : 15623
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c762"),
+        "id" : 238,
+        "movie_name" : "Hot Fuzz",
+        "movie_genre" : "Action|Comedy|Crime|Mystery",
+        "year" : 2020,
+        "budget" : 13343
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c768"),
+        "id" : 244,
+        "movie_name" : "Some Came Running",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2020,
+        "budget" : 14182
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c76e"),
+        "id" : 250,
+        "movie_name" : "Je, tu, il, elle (I, You, He, She)",
+        "movie_genre" : "Drama",
+        "year" : 2020,
+        "budget" : 11342
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c7aa"),
+        "id" : 310,
+        "movie_name" : "Greatest, The",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2020,
+        "budget" : 16962
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c7b4"),
+        "id" : 320,
+        "movie_name" : "Story Written with Water, A (Mizu de kakareta monogatari)",
+        "movie_genre" : "Drama",
+        "year" : 2020,
+        "budget" : 9965
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c7ce"),
+        "id" : 346,
+        "movie_name" : "Albuquerque",
+        "movie_genre" : "Romance|Western",
+        "year" : 2020,
+        "budget" : 9550
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c83e"),
+        "id" : 458,
+        "movie_name" : "Night of the Living Dead 3D",
+        "movie_genre" : "Adventure|Comedy|Fantasy|Horror",
+        "year" : 2020,
+        "budget" : 15432
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c860"),
+        "id" : 492,
+        "movie_name" : "SUBWAYStories: Tales from the Underground",
+        "movie_genre" : "Drama",
+        "year" : 2020,
+        "budget" : 11187
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c677"),
+        "id" : 3,
+        "movie_name" : "Hope Springs",
+        "movie_genre" : "Comedy|Drama",
+        "year" : 2019,
+        "budget" : 18833
+}
+Type "it" for more
+> db.movies.find({},{}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c67f"),
+        "id" : 11,
+        "movie_name" : "Loaf and Camouflage",
+        "movie_genre" : "Comedy",
+        "year" : 2004,
+        "budget" : 15857
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c680"),
+        "id" : 12,
+        "movie_name" : "How Hitler Lost the War",
+        "movie_genre" : "Documentary",
+        "year" : 2019,
+        "budget" : 13844
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c681"),
+        "id" : 13,
+        "movie_name" : "Manufacturing Consent: Noam Chomsky and the Media",
+        "movie_genre" : "Documentary|War",
+        "year" : 2000,
+        "budget" : 10687
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c682"),
+        "id" : 14,
+        "movie_name" : "Before Sunset",
+        "movie_genre" : "Drama|Romance",
+        "year" : 2003,
+        "budget" : 16054
+}
+{
+        "_id" : ObjectId("62284e9376bc0a735af2c683"),
+        "id" : 15,
+        "movie_name" : "Spend It All",
+        "movie_genre" : "Documentary",
+        "year" : 2003,
+        "budget" : 12362
+}
+>
