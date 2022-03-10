@@ -1,0 +1,173 @@
+Microsoft Windows [Version 10.0.22000.493]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Grazewal Singh>mongo
+MongoDB shell version v5.0.6
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("94d10031-ab7e-4c0c-a2d5-5430c1ba5501") }
+MongoDB server version: 5.0.6
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-03-10T06:32:50.342+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+
+---
+> use A_assignment
+switched to db A_assignment
+> db.createCollection("myusers")
+{ "ok" : 1 }
+> db.myusers.insertMany([{"first_name":"Mallory","last_name":"Hallgath","email":"mhallgath0@omniture.com","gender":"Male","ip_address":"74.98.148.190","age":56},
+... {"first_name":"Mirabelle","last_name":"Pudding","email":"mpudding1@dedecms.com","gender":"Female","ip_address":"231.234.14.75","age":49},
+... {"first_name":"Theressa","last_name":"Metzig","email":"tmetzig2@blogtalkradio.com","gender":"Female","ip_address":"3.45.63.14","age":35},
+... {"first_name":"Rafaellle","last_name":"Jefford","email":"rjefford3@google.com.hk","gender":"Genderqueer","ip_address":"154.36.25.175","age":33},
+... {"first_name":"Juliann","last_name":"Ellicott","email":"jellicott4@yandex.ru","gender":"Female","ip_address":"89.174.112.253","age":54},
+... {"first_name":"Marilin","last_name":"Goolding","email":"mgoolding5@adobe.com","gender":"Female","ip_address":"155.29.58.167","age":34},
+... {"first_name":"Anne-marie","last_name":"Hazel","email":"ahazel6@purevolume.com","gender":"Agender","ip_address":"92.17.172.3","age":25},
+... {"first_name":"Culver","last_name":"Boyles","email":"cboyles7@merriam-webster.com","gender":"Female","ip_address":"151.217.167.62","age":34},
+... {"first_name":"Lari","last_name":"Youngman","email":"lyoungman8@symantec.com","gender":"Female","ip_address":"170.202.137.122","age":52},
+... {"first_name":"Eda","last_name":"Bartalucci","email":"ebartalucci9@goo.ne.jp","gender":"Female","ip_address":"219.129.231.117","age":36}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("622a17a2ef38c82878e9077b"),
+                ObjectId("622a17a2ef38c82878e9077c"),
+                ObjectId("622a17a2ef38c82878e9077d"),
+                ObjectId("622a17a2ef38c82878e9077e"),
+                ObjectId("622a17a2ef38c82878e9077f"),
+                ObjectId("622a17a2ef38c82878e90780"),
+                ObjectId("622a17a2ef38c82878e90781"),
+                ObjectId("622a17a2ef38c82878e90782"),
+                ObjectId("622a17a2ef38c82878e90783"),
+                ObjectId("622a17a2ef38c82878e90784")
+        ]
+}
+> db.myusers.find({}).pretty()
+{
+        "_id" : ObjectId("622a17a2ef38c82878e9077b"),
+        "first_name" : "Mallory",
+        "last_name" : "Hallgath",
+        "email" : "mhallgath0@omniture.com",
+        "gender" : "Male",
+        "ip_address" : "74.98.148.190",
+        "age" : 56
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e9077c"),
+        "first_name" : "Mirabelle",
+        "last_name" : "Pudding",
+        "email" : "mpudding1@dedecms.com",
+        "gender" : "Female",
+        "ip_address" : "231.234.14.75",
+        "age" : 49
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e9077d"),
+        "first_name" : "Theressa",
+        "last_name" : "Metzig",
+        "email" : "tmetzig2@blogtalkradio.com",
+        "gender" : "Female",
+        "ip_address" : "3.45.63.14",
+        "age" : 35
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e9077e"),
+        "first_name" : "Rafaellle",
+        "last_name" : "Jefford",
+        "email" : "rjefford3@google.com.hk",
+        "gender" : "Genderqueer",
+        "ip_address" : "154.36.25.175",
+        "age" : 33
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e9077f"),
+        "first_name" : "Juliann",
+        "last_name" : "Ellicott",
+        "email" : "jellicott4@yandex.ru",
+        "gender" : "Female",
+        "ip_address" : "89.174.112.253",
+        "age" : 54
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90780"),
+        "first_name" : "Marilin",
+        "last_name" : "Goolding",
+        "email" : "mgoolding5@adobe.com",
+        "gender" : "Female",
+        "ip_address" : "155.29.58.167",
+        "age" : 34
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90781"),
+        "first_name" : "Anne-marie",
+        "last_name" : "Hazel",
+        "email" : "ahazel6@purevolume.com",
+        "gender" : "Agender",
+        "ip_address" : "92.17.172.3",
+        "age" : 25
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90782"),
+        "first_name" : "Culver",
+        "last_name" : "Boyles",
+        "email" : "cboyles7@merriam-webster.com",
+        "gender" : "Female",
+        "ip_address" : "151.217.167.62",
+        "age" : 34
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90783"),
+        "first_name" : "Lari",
+        "last_name" : "Youngman",
+        "email" : "lyoungman8@symantec.com",
+        "gender" : "Female",
+        "ip_address" : "170.202.137.122",
+        "age" : 52
+}
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90784"),
+        "first_name" : "Eda",
+        "last_name" : "Bartalucci",
+        "email" : "ebartalucci9@goo.ne.jp",
+        "gender" : "Female",
+        "ip_address" : "219.129.231.117",
+        "age" : 36
+}
+> db.myusers.findOne({"age":23})
+null
+> db.myusers.findOne({"age":25})
+{
+        "_id" : ObjectId("622a17a2ef38c82878e90781"),
+        "first_name" : "Anne-marie",
+        "last_name" : "Hazel",
+        "email" : "ahazel6@purevolume.com",
+        "gender" : "Agender",
+        "ip_address" : "92.17.172.3",
+        "age" : 25
+}
+> db.myusers.update({"first_name":"Anne-marie"},{$set:{"email":"updatedemail@gmail.com"}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.myusers.remove({"_id" : ObjectId("622a17a2ef38c82878e90781")})
+WriteResult({ "nRemoved" : 1 })
+> db.dropDataBase()
+uncaught exception: TypeError: db.dropDataBase is not a function :
+@(shell):1:1
+> db.dropDatabase()
+{ "ok" : 1 }
+>
