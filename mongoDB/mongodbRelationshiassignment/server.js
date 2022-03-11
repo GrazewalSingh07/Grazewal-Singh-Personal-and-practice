@@ -13,18 +13,21 @@ const connectDB = ()=>{
 const bookSchema=new mongoose.Schema(
     {
         name:{type:String, required:true},
-        author:{type:String,required:true},
+        // author:{type:String,required:true},
         body:{type:String,required:false},
-    //     sectionsId:{
-    //         type:mongoose.Schema.Types.ObjectId, ref:"sections",required:true
-    //     },
-    //     authorsId:{
-    //         type:mongoose.Schema.Types.ObjectId, ref:"authors", required:true
-    //     }
-
-    // },
-    // {
-    //     versionKey:false,
+        sectionsId:{
+            type:mongoose.Schema.Types.ObjectId, ref:"section",required:true
+        },
+        authorsId:{
+            type:mongoose.Schema.Types.ObjectId, ref:"author", required:true
+        },
+        checkoutId:{
+            type:mongoose.Schema.Types.ObjectId, ref:"checkout", required:true
+        }
+         
+    },
+    {
+        versionKey:false,
 
     }
      
@@ -36,7 +39,7 @@ app.post("/books",async(req,res)=>{
     return res.status(201).send(book)
 })
 app.get("/books",async(req,res)=>{
-    const books= await Book.find({}).lean().exec();
+    const books= await Book.find().populate({path:"sectionsId",select:{"name":1}}).populate("authorsId").lean().exec();
     return res.status(201).send(books);
 })
 app.patch("/books/:id",async(req,res)=>{
@@ -60,6 +63,9 @@ app.delete("/books/:id",async(req,res)=>{
 
 const sectionSchema=new mongoose.Schema({
     name:{type:String, required:true}
+},{
+    versionKey:false,
+
 })
 
 const Section=mongoose.model("section",sectionSchema)
@@ -109,6 +115,10 @@ const authorSchema=new mongoose.Schema(
     {
         first_name:{type:String, required:true},
         last_name:{type:String,required:false},
+    },
+    {
+        versionKey:false,
+
     }
 )
 const Author=mongoose.model("author",authorSchema);
@@ -147,6 +157,44 @@ app.delete("/author/:id",async(req,res)=>{
     }
 })
 
+//creating checkedout schema model and route
+
+const checkoutSchema=new mongoose.Schema(
+    {
+    name:{type:String, required:true},
+    bookId:{type:mongoose.Schema.Types.ObjectId, ref:"book",required:true },
+    // availability:{type:Boolean}
+    },
+{
+    versionKey:false,
+    timestamps:true
+
+})
+
+const Checkout=mongoose.model("checkout", checkoutSchema)
+
+ 
+app.get("/checkout",async(req,res)=>{
+    try {
+        const checkout=await Checkout.find().populate("bookId").lean().exec();
+    return res.status(201).send(checkout);
+    } catch (error) {
+        return res.status(500).send({message:"Something went wrong try agin later"})
+    }
+    
+})
+app.post("/checkout",async(req,res)=>{
+    try {
+        const checkedout=await Checkout.create(req.body)
+        return res.status(201).send(checkedout)
+    } catch (error) {
+        return res.status(500).send({message:"Something went wrong try agin later"})
+    }
+   
+})
+// function checkavailablity(req,res,next){
+ 
+// }
 app.listen(3333,async ()=>{
     try {
         await connectDB();
