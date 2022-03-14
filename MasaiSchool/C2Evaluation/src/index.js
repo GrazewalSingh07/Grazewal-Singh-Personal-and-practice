@@ -86,7 +86,7 @@ const MasterAccount=mongoose.model("masterAccount", masterAccountSchema)
 
 app.get("/masteraccount:id",async(req,res)=>{
     try {
-        const masteraccount=await MasterAccount.find().populate("userId").lean().exec()
+        const masteraccount=await MasterAccount.find(req.params.id).populate("userId").lean().exec()
         return res.status(201).send(masteraccount)
     } catch (error) {
         return res.status(500).send({message:res.message})
