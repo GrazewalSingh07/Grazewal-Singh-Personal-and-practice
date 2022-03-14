@@ -86,7 +86,7 @@ const MasterAccount=mongoose.model("masterAccount", masterAccountSchema)
 
 app.get("/masteraccount:id",async(req,res)=>{
     try {
-        const masteraccount=await MasterAccount.find(req.params.id).populate("userId").lean().exec()
+        const masteraccount=await MasterAccount.findById(req.params.id).populate("userId").lean().exec()
         return res.status(201).send(masteraccount)
     } catch (error) {
         return res.status(500).send({message:res.message})
@@ -100,7 +100,7 @@ const savingAccountSchema=new mongoose.Schema(
     accountNumber:{type:Number,require:true},
     balance:{type:Number,required:true},
     intrestRate:{type:String,required:true},
-    masterAccountId:{type:mongoose.Schema.Types.ObjectId,ref:"masteraccount",required:true}
+    // masterAccountId:{type:mongoose.Schema.Types.ObjectId,ref:"masteraccount",required:true}
 
 },
 {
@@ -135,7 +135,7 @@ const fixedAccountSchema=new mongoose.Schema(
     intrestRate:{type:String,required:true},
     startDate:{type:String,required:true},
     maturityDate:{type:String,required:true},
-    masterAccountId:{type:mongoose.Schema.Types.ObjectId,ref:"masteraccount",required:true}
+    // masterAccountId:{type:mongoose.Schema.Types.ObjectId,ref:"masteraccount",required:true}
 
 },
 {
