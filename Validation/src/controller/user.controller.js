@@ -2,6 +2,7 @@ const express=require("express");
 const {body,validationResult}=require("express-validator");
 const router=express.Router();
 const User=require("../model/user.model")
+const uploads=require("../middlewares/uploads")
  
 router.get("/",async(req,res)=>{
     try {
