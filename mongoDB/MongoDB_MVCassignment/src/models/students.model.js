@@ -1,13 +1,16 @@
 
 const mongoose=require("mongoose");
 const studSchema=new mongoose.Schema({
+    userId:{
+        type:mongoose.Schema.Types.ObjectId, ref:"user",required:true
+    },
+    evaluationId:{ type:mongoose.Schema.Types.ObjectId, ref:"evaluation",required:true},
+    marks:{type:Number},
     roll_id:{type:Number, required:true},
     currentbatch:{
         type:mongoose.Schema.Types.ObjectId, ref:"batch",required:true
     },
-    userId:{
-        type:mongoose.Schema.Types.ObjectId, ref:"user",required:true
-    }
+    
 },{
     timestamps:true
 })

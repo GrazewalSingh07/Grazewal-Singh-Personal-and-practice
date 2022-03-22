@@ -23,6 +23,22 @@ app.get("/",async(req,res)=>{
         console.log(error)
     }
 })
+app.get("/highest",async(req,res)=>{
+    try {
+        const stud= await Stud.find().sort({marks:-1}).limit(1).populate("userId").populate("currentbatch").lean().exec();
+        return res.status(201).send(stud)
+    } catch (error) {
+        console.log(error)
+    }
+})
+app.get("/:id",async(req,res)=>{
+    try {
+        const stud= await Stud.find({evaluationId:req.params.id}).populate("userId").populate("currentbatch").lean().exec();
+        return res.status(201).send(stud)
+    } catch (error) {
+        console.log(error)
+    }
+})
 app.patch("/:id",async(req,res)=>{
     try {
         const stud= await Stud.findByIdAndUpdate(req.params.id,req.body,{new:true})
