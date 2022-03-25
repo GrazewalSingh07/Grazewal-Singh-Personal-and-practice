@@ -6,10 +6,6 @@ const galleryController=require("./controller/gallery.controller")
 
  
  
-
-
-
-
 app.use("/user",userController)
 app.use("/gallery",galleryController)
 module.exports=app
