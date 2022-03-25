@@ -50,10 +50,6 @@ router.patch("/:id",single("profile_Pic"),async(req,res)=>{
                 res.status(200).send(user)
         
         }
-         
-           
-        
-       
     } catch (error) {
         return res.status(400).send(error)
     }
