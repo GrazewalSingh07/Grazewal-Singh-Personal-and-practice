@@ -10,7 +10,7 @@ function newToken(user){
 }
  
 router.post("/",
-   body("email").not().isEmpty().isEmail().withMessage("Please enter email").custom(async(value)=>{
+   body("email").not().isEmpty().bail().isEmail().withMessage("Please enter email").custom(async(value)=>{
     let user= await User.findOne({email:value}).lean().exec()
     if(!user){
        throw new Error("Email or password incorrect")

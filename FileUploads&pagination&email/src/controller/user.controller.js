@@ -66,10 +66,6 @@ router.patch("/:id",single("profile_Pic"),async(req,res)=>{
         return res.status(400).send({error:error.message})
     }
 })
-
-
-
-
 router.delete("/:id",async(req,res)=>{
     try {
         const user= await User.findByIdAndDelete(req.params.id).lean().exec()

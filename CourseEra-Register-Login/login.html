@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+         html, body {
+        height: 100%;
+        margin: 0px;
+        color:black;
+        background-color: red;
+        
+      }
+        .container{
+            border: 1px solid;
+           height: 100%;
+           width: 100%;
+           background-color: white;
+           /* opacity: 0.6; */
+            
+            
+        }
+        .Login{
+            background-color: white;
+            border: 1px solid;
+            height: 95%;
+            opacity: 1;
+            border-radius: 5px;
+            width: 35%;
+            margin: 2% 20% 20% 40%;
+            
+        }
+        .Login>*{
+            margin:10px
+        }
+        .Login>form>h6{
+           margin-bottom: 1px;
+         }
+         input{
+             padding: 5% 20%;
+         }
+         #submission{
+             padding: 10% 40%;
+             background-color: blue;
+             border: none;
+             color: white;
+             margin:2% 5%
+             
+         }
+         #submission:hover{
+            background-color:darkblue
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Login">
+            
+            <h1>Welcome back</h1>
+            <p>Learn on your own time from top universities and businesses.</p>
+            <form id="login-form">
+                <h6>EMAIL</h6>
+                <input type="text" id="email" placeholder="name@email.com">
+                <h6>PASSWORD</h6>
+                <input type="text" id="Password"placeholder="Password">
+                 <a href="#"><p>Forgot password?</p></a>
+                <input id ="submission"type="submit" value="Login"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+     const form=document.getElementById("login-form").addEventListener("submit", login)
+     let url=`http://localhost:4000/login`
+
+     async function login(event){
+         event.preventDefault();
+         const email=document.getElementById("email").value
+        const password= document.getElementById("Password").value
+         const result= await fetch(url,{
+            method:"POST",
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:
+                JSON.stringify({
+                    email,
+                    password
+            })
+        }).then((res)=>{
+            return res.json()
+        })
+        console.log(result)
+        if(result.error){
+          console.log(result.error)
+      }
+      else{
+        localStorage.setItem("Course-era Token",JSON.stringify(result))
+           
+      }
+     }
+</script>
