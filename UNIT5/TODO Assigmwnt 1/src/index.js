@@ -4,8 +4,7 @@ function addnote(event){
     event.preventDefault()
     let notetitle=document.querySelector("#notetitle").value
     let note=document.querySelector("#note").value
-   let getnote= JSON.parse(localStorage.getItem("note"))
-   let getnotetitle=JSON.parse(localStorage.getItem("notetitle"))
+  
    
     localStorage.setItem("note",JSON.stringify(note))
     localStorage.setItem("notetitle",JSON.stringify(notetitle))
