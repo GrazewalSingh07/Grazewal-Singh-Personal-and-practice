@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,11 +9,11 @@ const Manufacturers=["Samsung","HTC","Micromax","Apple"]
 
       <div id="navbar">
        <div id="innernavbar">
-         <h3>LOGOBAKERY</h3>
+         <img src={process.env.PUBLIC_URL+"/logo192.png"}/>
          <div className="flex">
-           <p>Services</p>
-           <p>Projects</p>
-           <p>About</p>
+           <a >Services</a>
+           <a >Projects</a>
+           <a >About</a>
          </div>
          <button>Contact</button>
        </div>

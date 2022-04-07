@@ -20,11 +20,13 @@
   display: flex;
   justify-content: space-between;
 }
-h3{
+img{
+  width: 100px;
+  height: 100px;
   color:white;
   margin: auto 5% ;
 }
-p{
+a{
   margin: auto 30% ;
   color:white;
 }
