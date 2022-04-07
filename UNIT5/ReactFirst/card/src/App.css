@@ -1,0 +1,44 @@
+ 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+#navbar{
+  width:1920px;
+  height:200px;
+  background-color: #D6E2EC;
+  border: 1px solid ;
+}
+#innernavbar{
+  background-color: black;
+  width: 1800px;
+  height: 100px;
+  margin:50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  color:white;
+  margin: auto 5% ;
+}
+p{
+  margin: auto 30% ;
+  color:white;
+}
+.flex{
+  display: flex;
+  
+  justify-content: space-between;
+}
+button{
+  background-color:#0089A6;
+  border: none;
+  width:10%;
+  border-radius: 50px;
+  height:50%;
+  color:white;
+  margin: 1% 7%;
+}

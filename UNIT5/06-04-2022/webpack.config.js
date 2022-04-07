@@ -9,7 +9,8 @@ module.exports={
     mode:"development", // mode: "production" we change developemnt to production if we want to deploy
     module:{
         rules:[
-            {test:/\.css$/,use:["style-loader","css-loader"]}
+            {test:/\.css$/,use:["style-loader","css-loader"]},
+            {test:/\.js$/,use:["babel-loader"]}
         ]
     }
 }
