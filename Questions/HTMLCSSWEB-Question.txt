@@ -1,0 +1,6 @@
+Explain briefly what happens when you hit a url? explain DNS lookup?
+ans=> URL stands for Uniform Resource Locator.
+ URL is the address of the website which you can find in the address bar of your web browser. 
+ It is a reference to a resource on the internet, be it images, hypertext pages, audio/video files, etc.
+ DNS=>DNS is short for Domain Name System.DNS maintains and maps the name of the website, i.e. URL, and particular IP address it links to.
+  Every URL on the internet has a unique IP address which is of the computer which hosts the server of the website requested.

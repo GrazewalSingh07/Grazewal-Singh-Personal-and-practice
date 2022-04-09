@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
 const OS=["Android","Blackberry","iPhone","Windows Phone"]
 const Manufacturers=["Samsung","HTC","Micromax","Apple"]
   return (
