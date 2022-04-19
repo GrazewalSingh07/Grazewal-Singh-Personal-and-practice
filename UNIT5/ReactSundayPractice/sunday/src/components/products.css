@@ -1,0 +1,28 @@
+.image{
+    width:200px;
+    height: 300px;
+
+}
+.addtocart{
+    border: none;
+    color:white;
+    background-color: green;
+    padding: 5px 10px;
+}
+.innerProdDiv{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Products{
+   
+    display: flex;
+
+}
+.ProdCard{
+    margin: 20px;
+}
+.buttonandamount{
+    display: flex ;
+    justify-content: space-between;
+}

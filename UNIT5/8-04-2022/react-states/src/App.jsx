@@ -46,7 +46,9 @@ function App() {
       setCounter(counter+1)
     }
     if(n===-1){
-      
+      if(counter===0){
+        return
+      }
       setCounter(counter-1)
     }
     if(n===2){

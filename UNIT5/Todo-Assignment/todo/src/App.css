@@ -1,0 +1,12 @@
+ .form{
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+ }
+  
+ .form>*{
+   margin: 10px;
+ }
+ .flex{
+   display: flex;
+ }

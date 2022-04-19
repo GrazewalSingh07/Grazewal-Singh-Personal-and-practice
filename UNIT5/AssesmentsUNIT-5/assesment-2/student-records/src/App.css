@@ -1,0 +1,54 @@
+ h1{
+     text-align: center;
+ }
+ .controls{
+     display: flex;
+      /* margin: 20px 580px; */
+      
+ }
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+#toggle{
+     background-color: green;
+     color: white;
+     border: none;
+     padding: 15px 30px;
+     margin: 20px 900px ;
+     
+ }
+ .submit{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    
+ }
+ .addstudent{
+     background-color: antiquewhite;
+     width: 20%;
+     padding:20px;
+     margin: auto;
+ }
+ .addstudent>*{
+     margin: 10px 10px 10px 40px;
+    
+ }
+ input{
+     border: none;
+     padding: 5px 10px;
+ }
+ h3{
+     margin-left: 90px;
+ }

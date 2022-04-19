@@ -1,0 +1,23 @@
+ 
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+ button{
+   background-color: brown;
+   color: white;
+   border:none;
+   padding: 15px 30px;
+   margin: 10px;
+ }
+ button:hover{
+  background-color:rgb(195, 47, 47);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ p{
+   font-size: 20px;
+   font-weight: bold;
+ }

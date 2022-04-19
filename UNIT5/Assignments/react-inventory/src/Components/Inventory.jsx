@@ -63,19 +63,4 @@ function Attach({name,Button,Button2}){
 }
 
 export{Inventory}
-
-// <div>
-// <p>Books</p>
-// <button>Add one</button>
-// <button>remove one</button>
-// </div>
-// <div>
-// <p>Pens</p>
-// <button>Add one</button>
-// <button>remove one</button>
-// </div>
-// <div>
-// <p>Notebooks</p>
-// <button>Add one</button>
-// <button>remove one</button>
-// </div>
+ 
