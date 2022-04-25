@@ -1,0 +1,11 @@
+.links>*{
+    background-color: aquamarine;
+    text-decoration: none;
+    padding:10px ;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.links{
+    margin: auto;
+}

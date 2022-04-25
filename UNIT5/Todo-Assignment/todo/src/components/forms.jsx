@@ -19,8 +19,11 @@ function Form(){
              <option value="Medical">Medical</option>
          </select>
          <input type="text" placeholder="Salary"/>
-         <div className="flex"> <input type="checkbox" id="married" value="Married"/>
-         <label htmlFor="marital-Status">Married</label><br/></div>
+         
+         <div className="flex">
+         <input type="checkbox" id="married" value="Married"/>
+         <label htmlFor="marital-Status">Married</label><br/>
+         </div>
         
         <div className="flex">
             <input type="checkbox" id="unmarried" value="unmarried"/>

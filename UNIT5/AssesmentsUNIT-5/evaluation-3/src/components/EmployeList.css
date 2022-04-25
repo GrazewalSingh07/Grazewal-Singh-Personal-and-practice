@@ -1,0 +1,26 @@
+.EmployeeList{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+
+}
+ .onepiece{
+     background-color: antiquewhite;
+     margin: 20px;
+    height: 300px;
+     text-align: center;
+ }
+ h3{
+     color:darkslategrey;
+     margin: -10px;
+ }
+ h4{
+     color: darkslategrey;
+    margin-top: 1rem;
+ }
+ img{
+    
+    width: auto;
+    height: 70%;
+    border: 2px solid antiquewhite;
+ }
