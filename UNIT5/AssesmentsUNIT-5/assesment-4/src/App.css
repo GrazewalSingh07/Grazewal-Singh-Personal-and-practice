@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.navbar>*{
+  margin: 10px;
+}
+.navbar{
+  margin: 10px;
+}
+.admin{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
