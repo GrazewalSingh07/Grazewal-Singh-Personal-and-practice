@@ -1,0 +1,21 @@
+.ContactCard{
+    display:flex;
+    margin:20px;
+    cursor:pointer;
+    background:whitesmoke
+}
+.Image-Container{
+     width:100px;
+     height:100px;
+     margin-bottom:1.5rem;
+}
+.image{
+
+    width:100%; 
+    height:100%;
+     border-radius:50%;
+     margin:10px; 
+     object-fit:cover;
+     position:relative; 
+     display:block
+}
