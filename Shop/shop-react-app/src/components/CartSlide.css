@@ -1,0 +1,44 @@
+.cartSlidePaymentOptionbtn {
+    padding: 5px 10px;
+    background: white;
+    border: .5px solid;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight:700
+}
+ 
+.cartSlidePaymentOptionbtn:hover{
+background-color: #414467;
+color: white;
+cursor: pointer;
+}
+.Cart-continue-shopping:hover,.OpenCartButonCartSlide:hover{
+    background-color: #414467;
+color: white;
+cursor: pointer;
+}
+.Cart-continue-shopping,.OpenCartButonCartSlide
+{
+    padding: 5px 10px;
+    background: white;
+    border: .5px solid;
+    margin:5% 30%;
+    font-size: 16px;
+    font-weight:700;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+    line-height: 17.6px;
+    width:280px;
+    bottom: 0;
+    position: relative;
+
+}
+.CartCardOnCartSlide{
+    margin: 10px;
+    
+}
+.cartOnCartSlide{
+    width: 100%;
+}

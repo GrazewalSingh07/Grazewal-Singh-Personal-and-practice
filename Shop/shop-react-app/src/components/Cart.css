@@ -1,0 +1,78 @@
+.Cart-Slide-Detail{
+ align-items: center;
+ 
+}
+ .cart{
+    width: 67%;
+ }
+.CartCard{
+    margin: 1% 2%
+}
+ .cartProductDetail{
+     line-height: .5;
+ }
+.CartImage{
+    width: 80px;
+    height: auto;
+}
+.CartCardDetail{
+
+}
+.CartCardParent{
+    display: flex;
+}
+.total_cart{
+    background-color: #F0F1F7;
+    height: 60%;
+    right: 0;
+    position: absolute;
+    margin: 1%;
+}
+ .total_cart>div{
+     text-align: right;
+     margin: 1%;
+ }
+.paymentImages>*{
+    margin: 0px 10px 50px 10px;
+}
+.otherWaytocheckout{
+    padding: 20px;
+    background-color: white;
+    width: 90%;
+    margin: 7%;
+}
+ .Cart_zip_calculate{
+     display: flex;
+     margin: 1% 1% 1% 35%;
+ }
+ .Cart_zip_calculate>*{
+    margin: 10px;
+     
+ }
+ .RemovefromCartbtn{
+    padding: 5px 10px;
+    background: white;
+    border: .5px solid;
+    margin-left: 10%;
+   height: 30px;
+   font-weight: 700;
+ }
+  
+.RemovefromCartbtn:hover{
+background-color: #414467;
+color: white;
+cursor: pointer;
+}
+.Saveforlaterbtn:hover{
+    background-color: #414467;
+color: white;
+cursor: pointer;
+}
+.Saveforlaterbtn{
+    padding: 5px 10px;
+    background: white;
+    border: .5px solid;
+    margin-left: 10px;
+   height: 30px;
+   font-weight: 700;
+}

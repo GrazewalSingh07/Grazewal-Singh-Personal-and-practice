@@ -1,0 +1,163 @@
+/* Button{
+    background-color: #003a8c;
+} */
+.Sign_main_div {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+
+.signin_div {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+.signup_div {
+    /* border: 1px solid blue; */
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.email {
+    width: 200px;
+    margin-bottom: -10px;
+    height: 60px;
+    font: normal 0.75rem Arial, Helvetica, sans-serif;
+    border: 1px solid #202340;
+    border-radius: 2px;
+    padding: 0.5em;
+    width: 100%;
+    margin: 5px 5px 0 0;
+    color: #202340;
+    box-sizing: border-box;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+
+.password {
+    font: normal 0.75rem Arial, Helvetica, sans-serif;
+    border: 1px solid #202340;
+    border-radius: 2px;
+    padding: 0.5em;
+    width: 100%;
+    margin: 5px 5px 0 0;
+    height: 60px;
+    color: #202340;
+    box-sizing: border-box;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+
+.forgotpass {
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-decoration: underline;
+    font: inherit;
+    vertical-align: baseline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #2e2c38;
+    font-size: 19px;
+}
+
+.signin_button {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1em;
+    min-height: 40px;
+    padding: 0.65em;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 2px;
+    border: 1px solid #414467;
+    margin: 20px 0 10px;
+    width: 100%;
+    
+}
+
+.address {
+    /* margin-bottom: 0px; */
+    font-size: 19px;
+    display: block;
+    margin: 5px 0;
+}
+
+.pass_p {
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+
+.heading_donthaveacc {
+    font-size: 30px;
+    
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-top: -12px;
+    /* line-height: 2px; */
+    
+}
+
+.createButton {
+    max-width: 960px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1em;
+    min-height: 40px;
+    padding: 0.65em;
+    text-align: center;
+    vertical-align: middle;
+    background-position: center right;
+}
+
+.singin_button {
+    background-color: #414467; 
+    width: 100%; 
+    color: white; 
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    font-weight: bold;
+}

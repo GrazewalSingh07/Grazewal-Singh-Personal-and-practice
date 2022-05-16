@@ -1,0 +1,146 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+   position: absolute;
+    right: 0;
+}
+.products>section:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.productParent{
+    width: 80%;
+    right: 0;
+}
+ 
+.products>section{
+    border: .5px solid #D9DAE5;
+    width: 390px;
+    align-items: center;
+    height:650px;
+    position: relative;
+    margin: 10px;
+}
+.Bigger_Section_Product{
+    display: flex;
+}
+.filter-shorting-left-side-main{
+    width: 100%;
+}
+.crossedprice{
+text-decoration: line-through;
+}
+.Productdivfoot{
+    /* display: flex; */
+    bottom: 0;
+    position: absolute;
+    left:0;
+}
+.flex{
+    display: flex;
+}
+.cashbackProduct>p{
+    padding: 2px;
+    line-height: 14px;
+}
+ .productImage{
+    display:flex;
+    justify-content: center;
+ }
+.productImage>img{
+   height: 386.312px;
+   width: 386.312px;
+  margin: 20px 0px 40px 0px;
+    cursor: pointer;
+}
+ 
+*{
+    font-family: Roboto,Arial,Arial, Helvetica, sans-serif;
+}
+.ProductCard{
+    width: 388.312px;
+
+    height: 634.938px;
+}
+.ProductDetail{
+    margin: -10px 20px 0px 20px;
+    padding: 0px 0px 5px 0px;
+    line-height: 15.84px;
+    text-align: left;
+}
+ 
+.addtocartbtn{
+    background-color: #414467;
+    color: white;
+    border: #414467;
+    height: 40px;
+    width: 196px;
+    padding: 9px 9px 9px 9px;
+    cursor: pointer;
+}
+.seeDetailbtn{
+    background-color: #F0F1F7;
+    color: #414467;
+    border: #414467;
+    padding: 9px 9px 9px 5px;
+    height: 40px;
+    width: 193.160px;
+    cursor: pointer;
+}
+.pagination_Section{
+    bottom: 0;
+    margin-left: 50%;
+    position: absolute;
+    /* margin: 2%; */
+}
+.pagination_Section>*{
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.pagination_Section>button:hover{
+    color:#414467;
+    font-weight: 700;
+}
+.filter_type {
+    border: none;
+    background-color: transparent;
+}
+ .sort_section{
+     display: flex;
+     margin: 0% 0% 0% 2%;
+ }
+ .sort_section>*{
+    margin: 0px 0px 0px 10px;
+    
+    
+ }
+.filter_Section_type{
+    width: auto;
+    margin: 2%;
+     
+}
+.filter_type_data>div>p:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+ 
+.historyProductPage{
+    margin: 0% 0% 0% 2%;
+}
+@media only screen and (max-width: 600px) {
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .filter-shorting-left-side-main>div{
+        display: flex;
+    }
+    .Bigger_Section_Product{
+        display: block;
+    }
+   
+  }
+  
