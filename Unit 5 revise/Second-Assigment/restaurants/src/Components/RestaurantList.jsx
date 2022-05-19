@@ -10,16 +10,18 @@ export const RestaurantList=()=>{
     const [callbackval,setcallbackval]=useState(0)
     const [page,setPage]=useState(1)
     const [maxpage,setmaxpage]=useState(1)
-    const [filtervalue,setFiltervalue]=useState(0)
-    console.log(filtervalue)
+    const [filterpayment,setFilterpayment]=useState("all")
+    const [filterStarvalue,setFilterStarvalue]=useState(0)
+    // console.log(filtervalue)
     // function Filtervalue(val){
     //         setFiltervalue(val)  
     // }
     function callback(val){
         setcallbackval(val)
     }
+    // ?_page=${page}&_limit=5
     React.useEffect(()=>{
-        axios.get(`http://localhost:8080/Restaurants?_page=${page}&_limit=4`).
+        axios.get(`http://localhost:8080/Restaurants`).
         then((res=>{ setdata(res.data)
             setmaxpage((Math.ceil(res.headers["x-total-count"]/4)))}))
     //    async function getdata(){
@@ -56,17 +58,34 @@ export const RestaurantList=()=>{
     }
     return (
         <div key="ResListKey" className="Container">
-            <div>
-                <button value="1" onClick={()=>setFiltervalue(1)}>1 star</button>
-                <button value="2" onClick={()=>setFiltervalue(2)}>2 star</button>
-                <button value="3" onClick={()=>setFiltervalue(3)}>3 star</button>
-                <button value="4" onClick={()=>setFiltervalue(4)}>4 star</button>
-            </div>
+            
             <AddRestaurant callback={callback}/>
+            <div>
+                <h3>Filter by stars</h3>
+                <button value="1" onClick={()=>setFilterStarvalue(1)}>1 star</button>
+                <button value="2" onClick={()=>setFilterStarvalue(2)}>2 star</button>
+                <button value="3" onClick={()=>setFilterStarvalue(3)}>3 star</button>
+                <button value="4" onClick={()=>setFilterStarvalue(4)}>4 star</button>
+            </div>
+            <div>
+                <h3>Filter by payment modes</h3>
+                <button onClick={()=>{setFilterpayment("Credit/debit card")}} >Card payments available</button>
+                <button onClick={()=>{setFilterpayment("Google Pay"||"Apple Pay"||"PayPal")}}>Upi payment available</button>
+                <button onClick={()=>{setFilterpayment("cash")}}>Cash payment available</button>
+                <button onClick={()=>{setFilterpayment("all")}}>All</button>
+            </div>
             <div className="AllRestaurants">
-                {data.filter((el)=>{if(el.star>=filtervalue){
+                {data.filter((el)=>{if(el.star>=filterStarvalue){
                     return el
-                }}).map((el)=>(
+                }})
+                .filter((el)=>{if(el.payment_method.includes(filterpayment)){
+                    return el
+                     }
+                     else if(filterpayment=="all"){
+                         return el
+                     }
+                    })
+                .map((el)=>(
                 <RestaurantDetails {...el} />
                 ))}
             </div>
