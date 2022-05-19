@@ -1,0 +1,17 @@
+.AllRestaurants{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media only screen and (max-width: 900px) {
+    .Container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Container{
+        display: block;
+         
+    }
+  }
