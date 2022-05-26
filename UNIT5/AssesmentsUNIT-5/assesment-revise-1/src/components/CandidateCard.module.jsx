@@ -1,6 +1,6 @@
-import "./Employeecrd.css"
+import "./CandidateCard.module.css"
 
-export const EmployeeCard=({name,avatar,rating,title,salary,company_name})=>{
+export const CandidateCard=({name,avatar,rating,title,salary,company_name})=>{
     return (
         <div  data-testid="candidate-container" className="EmployeeCard">
             <img style={{margin:"1rem"}} src={avatar} alt={name} /> 

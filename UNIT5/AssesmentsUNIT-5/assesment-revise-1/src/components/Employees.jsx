@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { EmployeeCard } from "./CandidateCard.module"
+import { CandidateCard } from "./CandidateCard.module"
  
 export const Employees=()=>{
 
@@ -54,7 +54,7 @@ setSortOder(e.target.value)
         </select>
         <div className="EmployeeList">
         {data.sort((a,b)=>{return a.salary-b.salary}).map((el)=>(
-            <EmployeeCard {...el} />
+            <CandidateCard {...el} />
             ))}
             </div>
         </div>

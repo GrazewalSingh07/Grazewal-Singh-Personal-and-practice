@@ -5,9 +5,7 @@
    grid-template-columns: repeat(3,1fr);
    margin: 1rem;
  }
- .Container{
-
- }
+ 
  .button {
   padding: 1rem;
   border: 0px;
