@@ -5,5 +5,7 @@ export const ShowToken=()=>{
 
     const [isAuth,setIsAuth,token]=useContext(AuthContext)
     console.log(token)
-    return <h1>{token}</h1>
+    return <>
+    <h1>{token}</h1>
+    </>
 }
