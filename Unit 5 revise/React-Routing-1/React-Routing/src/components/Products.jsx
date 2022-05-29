@@ -27,6 +27,12 @@ export const Products=()=>{
             })
         })
     },[])
+    if(loading){
+        return <h1>Loading</h1>
+    }
+    if(error){
+        return <h1>Something went wrong</h1>
+    }
     return  <><h1>Products</h1><div style={{display:"grid",
         gridTemplateColumns:"repeat(4,1fr)", gap:"1rem", cursor:"pointer"}}>
        
