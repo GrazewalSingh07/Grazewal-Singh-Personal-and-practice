@@ -3,7 +3,7 @@ import React, { useState } from "react"
  
 
 const getGitHubUsers=(q="albseb",page=12)=>{
-    return axios("https://api.github.com/users",{
+    return axios("https://api.github.com/search/users",{
         method:"GET",
         params:{
             q,
@@ -33,7 +33,7 @@ export const Users=()=>{
 
        getGitHubUsers(query,page).then((res)=>{
             setLoading(false);
-            setData(res.data);
+            setData(res.data.items);
             console.log(res.data)
             setError(false)
             
@@ -55,8 +55,8 @@ export const Users=()=>{
             <input value={text} type="text" placeholder="query" onChange={(e)=>{setText(e.target.value)}}/>
             <button onClick={handleClick}>Submit</button>
             
-            {data.map((item)=>(
-                <div>
+            {data?.map((item)=>(
+                <div key ={item.node_id}>
                      <img style={{width:"100px"}}src={item.avatar_url} alt="" />
                     <p>{item.login}</p>
                 </div>

@@ -1,43 +1,37 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+ 
+import axios from 'axios'
+import { useEffect, useReducer } from 'react'
 import './App.css'
+import { Github } from './components/Github'
+const initState={
+  data:[],
+  error:false,
+  loading:true
+}
+const reducer=()=>{
 
+}
 function App() {
-  const [count, setCount] = useState(0)
+  const [{data,error,loading}, dispatch]=useReducer(reducer,initState)
 
-  return (
+  useEffect(()=>{
+    axios({
+      url:"https://api.github.com/search/users",
+      method:"GET",
+      params:{
+        q:"react",
+        per_page:10,
+        page:1
+      }
+    }).then((res)=>{
+      console.log(res.data.items)
+    }).catch((err)=>{
+      console.log(err)
+    })
+  },[])
+   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+      <Github/>
     </div>
   )
 }
