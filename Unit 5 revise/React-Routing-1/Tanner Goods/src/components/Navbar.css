@@ -1,0 +1,25 @@
+.btn {
+   color: black;
+   
+}
+.btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+   
+}
+.megadropdown{
+    transition:top 1s;
+    display: flex;
+    margin: 2rem ;
+    justify-content: space-around;
+    width: 100%;
+}
+.rightIcons{
+    /* width: 30% */
+
+}
+.icons{
+    width: 70px;
+    font-size: 25px;
+}
