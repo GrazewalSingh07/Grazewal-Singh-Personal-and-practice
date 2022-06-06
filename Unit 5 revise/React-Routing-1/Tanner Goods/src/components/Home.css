@@ -34,3 +34,6 @@
 	width: 80%;
 	margin: auto;
 }
+.BestSellers>div:hover{
+	cursor: pointer;
+}

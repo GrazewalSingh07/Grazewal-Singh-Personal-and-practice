@@ -316,7 +316,7 @@ export const Home=()=>{
       ]
     return(
         <div style={{justifyContent:"center"}}>
-            <Slider/>
+            <Slider style={{cursor:"pointer"}}/>
             <div  style={{margin:"auto",width:"80%",justifyContent:"space-between"}}>
               <div style={{display:"flex", justifyContent:"space-between", marginTop:"1rem",width:"80%"}}>
                   <h2 style={{fonSize:"32.3px"}}>Trending Right Now</h2>
@@ -325,7 +325,7 @@ export const Home=()=>{
             </div>
             <div style={{display:"flex",justifyContent:"center" }}>
                 {trendingdata.map((el)=>(
-                    <div key={el.id}style={{margin:".5rem", textAlign:"center"}}>
+                    <div key={el.id}style={{margin:".5rem", textAlign:"center" ,cursor:"pointer"}}>
                         <img style={{width:"260px"}}src={el.images} alt={el.title} />
                         <div>
                           <p>{el.COMPANY}</p>
@@ -343,19 +343,19 @@ export const Home=()=>{
             </div>
             {/* <hr style={{margin:"5rem 0 5rem 0",color:"gray" }}/> */}
             <div style={{display:"flex", justifyContent:"space-evenly", marginTop:"10rem"}}>
-              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Ads-Native-600-600-02_540x.jpg?v=1637739952")`,width:"606.594px",height:"460px",backgroundSize:"cover",backgroundRepeat:"no-repeat", border:"1px solid white",}}>
+              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Ads-Native-600-600-02_540x.jpg?v=1637739952")`,width:"606.594px",height:"460px",backgroundSize:"cover",backgroundRepeat:"no-repeat", border:"1px solid white",cursor:"pointer"}}>
                 <div style={{margin:"2rem 10rem 2rem 2rem", bottom:0}}>
                   <h1 style={{color:"white", fontSize:"40px"}}>Belts</h1>
                   <Button onClick={()=>navigate("/belts")} className="btn" style={{backgroundColor:"black", color:"white", border:"none"}}>SHOP NOW</Button>
                 </div>     
               </div>
-              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Wallet-Studio-Lifestyle-02_540x.jpg?v=1637739996")`,width:"606.594px",height:"460px",backgroundRepeat:"no-repeat" ,backgroundSize:"cover", border:"1px solid white"}}>
+              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Wallet-Studio-Lifestyle-02_540x.jpg?v=1637739996")`,width:"606.594px",height:"460px",backgroundRepeat:"no-repeat" ,backgroundSize:"cover", border:"1px solid white",cursor:"pointer"}}>
                <div style={{margin:"2rem 10rem 2rem 2rem", bottom:0}}>
                 <h1 style={{color:"white", fontSize:"40px"}}>Wallets</h1>
                 <Button onClick={()=>navigate("/wallets")} className="btn" style={{backgroundColor:"black", color:"white", border:"none"}}>SHOP NOW</Button>
                </div>
               </div>
-              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Collection-Mazama-Tableware_5c9a75d2-907e-4bc0-ad6f-f3a3179cd975_720x.jpg?v=1637736288")`,width:"606.594px",height:"460px",backgroundRepeat:"no-repeat" ,backgroundSize:"cover", backgroundPositionY:"-10rem", border:"1px solid white"}}>
+              <div style={{ backgroundImage: `url("https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Collection-Mazama-Tableware_5c9a75d2-907e-4bc0-ad6f-f3a3179cd975_720x.jpg?v=1637736288")`,width:"606.594px",height:"460px",backgroundRepeat:"no-repeat" ,backgroundSize:"cover", backgroundPositionY:"-10rem", border:"1px solid white",cursor:"pointer"}}>
                 <div style={{margin:"2rem 10rem 2rem 2rem", bottom:0}}>
                   <h1 style={{color:"white", fontSize:"40px"}}>Tablewear</h1>
                  <Button onClick={()=>navigate("/tablewear")} className="btn" style={{backgroundColor:"black", color:"white", border:"none"}}>SHOP NOW</Button>
@@ -371,8 +371,9 @@ export const Home=()=>{
                   
               </div>
             </div>
-            <div className="BestSellers">
-                {BestSellers.map((el)=>(
+            <div >
+               <div className="BestSellers"> 
+                 {BestSellers.map((el)=>(
                     <div key={el.id}style={{margin:".5rem", textAlign:"center"}}>
                         <img style={{width:"360px"}}src={el.images} alt={el.title} />
                         <div>
@@ -383,11 +384,13 @@ export const Home=()=>{
                        
                     </div>
                 ))}
+                </div>
+                <div style={{marginLeft:"50%", marginBottom:"2rem"}}> <Button className="btn" style={{backgroundColor:"black", color:"white", border:"none",}}>VIEW ALL</Button></div>
             </div>
-            <div style={{margin:"auto", justifyContent:"center"}}>
-            <Button className="btn" style={{backgroundColor:"black", color:"white", border:"none",margin:"auto", justifyContent:"center"}}>VIEW ALL</Button>
-            </div>
-           <div style={{backgroundImage:`url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Layover-Duffel-Field-Tan-Lifestyle-Hero_0c6d719d-5872-443f-98ed-c2385c913e4f_1944x.jpg?v=1635796299")`,height:"500px",backgroundSize:"cover" , textAlign:"center", margin:"auto",}}>
+            {/* <div style={{margin:"auto", justifyContent:"center"}}> */}
+              
+            {/* </div> */}
+           <div style={{backgroundImage:`url("https://cdn.shopify.com/s/files/1/0044/9802/files/TG-Layover-Duffel-Field-Tan-Lifestyle-Hero_0c6d719d-5872-443f-98ed-c2385c913e4f_1944x.jpg?v=1635796299")`,height:"500px",backgroundSize:"cover" , textAlign:"center", margin:"auto",cursor:"pointer"}}>
                   <div style={{}}>
                   <h1 style={{color:"white", fontSize:"50px"}}> <b> Free US Shipping</b>
 

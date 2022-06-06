@@ -1,1175 +1,1882 @@
 {
   "cart": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_DailyBelt_BrownSilver_Resize_071520-THUMB_720x.jpg?v=1629492884",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Belts-Lifestyle-01_720x.jpg?v=1638126790",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_BrownSilver_071520_720x.jpg?v=1638126786",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ_Product_BrownSilver_071520_720x.jpg?v=1638126786"
+      ],
+      "title": "Daily Belt - Cognac",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        30,
+        36,
+        38,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
+      },
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ],
+      "id": 1
+    },
+    {
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Front_720x.jpg?v=1648152678",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_9a2e2efb-c398-4e29-a4af-de247ee104ba_720x.jpg?v=1648152678",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Top_720x.jpg?v=1648152678",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Bottom_720x.jpg?v=1648152678"
+      ],
+      "title": "Standard Belt - Natural",
+      "price": "120.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
+      },
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ],
+      "id": 2
+    },
+    {
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_thumb_01_d0c96c99-25be-4bae-9eab-297be4d54904_720x.jpg?v=1603228378",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Cognac-01_720x.jpg?v=1637176517",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_01_720x.jpeg?v=1603228378",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_02_720x.jpeg?v=1603228378"
+      ],
+      "title": "Utility Bifold - Cognac",
+      "price": "125.00",
+      "colors": [
+        "Cognac"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
+          "3.5oz leather",
+          "4 Card pockets",
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
+      },
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ],
+      "id": 3
+    },
+    {
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_thumb_01_d0c96c99-25be-4bae-9eab-297be4d54904_720x.jpg?v=1603228378",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Cognac-01_720x.jpg?v=1637176517",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_01_720x.jpeg?v=1603228378",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_02_720x.jpeg?v=1603228378"
+      ],
+      "title": "Utility Bifold - Cognac",
+      "price": "125.00",
+      "colors": [
+        "Cognac"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
+          "3.5oz leather",
+          "4 Card pockets",
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
+      },
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ],
+      "id": 4
+    },
+    {
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_thumb_6118db03-f8bd-485a-993e-d99d9f4301ac_360x.jpg?v=1595467175",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_04_360x.jpg?v=1595467175",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_01_360x.jpg?v=1595467175",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_02_360x.jpeg?v=1595467175"
+      ],
+      "title": "Utility Bifold - Saddle Tan",
+      "price": "125.00",
+      "colors": [
+        "Saddle Tan"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
+          "3.5oz leather",
+          "4 Card pockets",
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
+      },
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ],
+      "id": 5
     }
   ],
   "belt": [
     {
       "id": 1,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Front_720x.jpg?v=1648152491",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Front_720x.jpg?v=1648152491",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_9eb0bb67-a124-4d5b-b804-ae9b53a86153_720x.jpg?v=1648152491",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Top_720x.jpg?v=1648152491",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Bottom_720x.jpg?v=1648152491"],
-      "title":"Standard Belt - Cognac",
-      "price":"120.00",
-      "colors":["Stainless","Brass","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Bottom_720x.jpg?v=1648152491"
+      ],
+      "title": "Standard Belt - Cognac",
+      "price": "120.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 2,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Front_720x.jpg?v=1648152389",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Front_720x.jpg?v=1648152389",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_2a37eef0-f266-4bf3-9881-72961fed6c90_720x.jpg?v=1648152389",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Top_720x.jpg?v=1648152389",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Bottom_720x.jpg?v=1648152389"],
-      "title":"Standard Belt - Black",
-      "price":"120.00",
-      "colors":["Stainless","Brass","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Bottom_720x.jpg?v=1648152389"
+      ],
+      "title": "Standard Belt - Black",
+      "price": "120.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 3,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Front_720x.jpg?v=1648152678",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Front_720x.jpg?v=1648152678",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_9a2e2efb-c398-4e29-a4af-de247ee104ba_720x.jpg?v=1648152678",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Top_720x.jpg?v=1648152678",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Bottom_720x.jpg?v=1648152678"],
-      "title":"Standard Belt - Natural",
-      "price":"120.00",
-      "colors":["Stainless","Brass","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Bottom_720x.jpg?v=1648152678"
+      ],
+      "title": "Standard Belt - Natural",
+      "price": "120.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 4,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Front_720x.jpg?v=1648152691",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Front_720x.jpg?v=1648152691",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_fc30869e-fc39-49ae-9442-b2fce9acbd57_720x.jpg?v=1648152691",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Top_720x.jpg?v=1648152691",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Bottom_720x.jpg?v=1648152691"],
-      "title":"Standard Belt - Saddle Tan",
-      "price":"120.00",
-      "colors":["Stainless","Brass","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Bottom_720x.jpg?v=1648152691"
+      ],
+      "title": "Standard Belt - Saddle Tan",
+      "price": "120.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 5,
-      "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Front_720x.jpg?v=1648152491",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Front_720x.jpg?v=1648152491",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_9eb0bb67-a124-4d5b-b804-ae9b53a86153_720x.jpg?v=1648152491",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Top_720x.jpg?v=1648152491",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Bottom_720x.jpg?v=1648152491"],
-      "title":"Classic Belt - Cognac",
-      "price":"115.00",
-      "colors":["Stainless","Brass","Black","Copper","Cast Brass"],
-      "Sizes":[30,32,34,36,38,42],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Cognac-Bottom_720x.jpg?v=1648152491"
+      ],
+      "title": "Classic Belt - Cognac",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        30,
+        32,
+        34,
+        36,
+        38,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 6,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Front_720x.jpg?v=1648152389",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Front_720x.jpg?v=1648152389",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_2a37eef0-f266-4bf3-9881-72961fed6c90_720x.jpg?v=1648152389",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Top_720x.jpg?v=1648152389",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Bottom_720x.jpg?v=1648152389"],
-      "title":"Standard Belt - Black",
-      "price":"115.00",
-      "colors":["Stainless","Brass"],
-      "Sizes":[28,30,32,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Black-Bottom_720x.jpg?v=1648152389"
+      ],
+      "title": "Standard Belt - Black",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 7,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Front_720x.jpg?v=1648152678",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Front_720x.jpg?v=1648152678",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_9a2e2efb-c398-4e29-a4af-de247ee104ba_720x.jpg?v=1648152678",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Top_720x.jpg?v=1648152678",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Bottom_720x.jpg?v=1648152678"],
-      "title":"Standard Belt - Natural",
-      "price":"115.00",
-      "colors":["Stainless","Brass"],
-      "Sizes":[28,30,32,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Natural-Bottom_720x.jpg?v=1648152678"
+      ],
+      "title": "Standard Belt - Natural",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 8,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Front_720x.jpg?v=1648152691",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Front_720x.jpg?v=1648152691",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_fc30869e-fc39-49ae-9442-b2fce9acbd57_720x.jpg?v=1648152691",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Top_720x.jpg?v=1648152691",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Bottom_720x.jpg?v=1648152691"],
-      "title":"Standard Belt - Saddle Tan",
-      "price":"115.00",
-      "colors":["Stainless","Brass"],
-      "Sizes":[28,30,34,36,38,40],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Belt-Saddle-Bottom_720x.jpg?v=1648152691"
+      ],
+      "title": "Standard Belt - Saddle Tan",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        34,
+        36,
+        38,
+        40
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 9,
-      "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_DailyBelt_BrownSilver_Resize_071520-THUMB_720x.jpg?v=1629492884",
-          "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Belts-Lifestyle-01_720x.jpg?v=1638126790",
-          "https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_BrownSilver_071520_720x.jpg?v=1638126786",
-          "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ_Product_BrownSilver_071520_720x.jpg?v=1638126786"],
-        "title":"Daily Belt - Cognac",
-        "price":"115.00",
-        "colors":["Stainless","Brass"],
-        "Sizes":[30,36,38,42],
-        "Quantity":10,
-        "Description":{
-          "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-          "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-         "Nickel plated roller bar buckle",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_DailyBelt_BrownSilver_Resize_071520-THUMB_720x.jpg?v=1629492884",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Belts-Lifestyle-01_720x.jpg?v=1638126790",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG_Product_BrownSilver_071520_720x.jpg?v=1638126786",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ_Product_BrownSilver_071520_720x.jpg?v=1638126786"
+      ],
+      "title": "Daily Belt - Cognac",
+      "price": "115.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        30,
+        36,
+        38,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
           "Hand stamped TG logo mark",
           "Hand-cast solid brass buckle optional (+$55)",
-          "Made in USA"]
-        },
-        "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-        "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-        "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
-     },
+          "Made in USA"
+        ]
+      },
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
+    },
     {
       "id": 10,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-cognac-single_720x.jpg?v=1622161574",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-cognac-single_720x.jpg?v=1622161574",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Fathers-Day-Dress-Belt-Monogrammed_720x.jpg?v=1629493148",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-cognac-stainless-buckle_720x.jpg?v=1622161574",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-cognac-stainless-buckle_720x.jpg?v=1622161574"],
-      "title":"Dress Belt - Cognac",
-      "price":"175.00",
-      "colors":["Stainless","Brass"],
-      "Sizes":[28,30,36,38,40,42],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-cognac-stainless-buckle_720x.jpg?v=1622161574"
+      ],
+      "title": "Dress Belt - Cognac",
+      "price": "175.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        36,
+        38,
+        40,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 11,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-brass-single_720x.jpg?v=1597335282",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-brass-single_720x.jpg?v=1597335282",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-stainless-single_720x.jpg?v=1597335282",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-front_720x.jpg?v=1597335282",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-underside_720x.jpg?v=1597335282"],
-      "title":"Dress Belt - Black",
-      "price":"175.00",
-      "colors":["Stainless","Brass"],
-      "Sizes":[28,32,38,40,42],
-      "Quantity":1,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-dress-belt-black-underside_720x.jpg?v=1597335282"
+      ],
+      "title": "Dress Belt - Black",
+      "price": "175.00",
+      "colors": [
+        "Stainless",
+        "Brass"
+      ],
+      "Sizes": [
+        28,
+        32,
+        38,
+        40,
+        42
+      ],
+      "Quantity": 1,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 12,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-cognac-thumb_6341e12d-b2b5-4b9c-99fc-9f3482895b36_720x.jpg?v=1629492911",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-cognac-thumb_6341e12d-b2b5-4b9c-99fc-9f3482895b36_720x.jpg?v=1629492911",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement-Example_441f79a1-5607-4339-8bed-af376c227c95_720x.jpg?v=1635893487",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-cognac-front_720x.jpg?v=1597335064",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-cognac-underside_720x.jpg?v=1597335064"],
-      "title":"Heritage Belt - Cognac",
-      "price":"125.00",
-      "colors":["Stainless","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,36,38],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-cognac-underside_720x.jpg?v=1597335064"
+      ],
+      "title": "Heritage Belt - Cognac",
+      "price": "125.00",
+      "colors": [
+        "Stainless",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 13,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-black-thumb_82ec5941-eb0a-490a-81de-b6147ff62a27_720x.jpg?v=1595702293",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-black-thumb_82ec5941-eb0a-490a-81de-b6147ff62a27_720x.jpg?v=1595702293",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement_ba9d5740-8ad9-418d-a3b3-bf617c835691_720x.jpg?v=1638992184",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-black-front_720x.jpg?v=1595702293",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-black-underside_720x.jpg?v=1595702293"],
-      "title":"Heritage Belt - Black",
-      "price":"125.00",
-      "colors":["Stainless","Brass","Black","Copper"],
-      "Sizes":[28,30,32,34,38],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-black-underside_720x.jpg?v=1595702293"
+      ],
+      "title": "Heritage Belt - Black",
+      "price": "125.00",
+      "colors": [
+        "Stainless",
+        "Brass",
+        "Black",
+        "Copper"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        38
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 14,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-natural-single_720x.jpg?v=1623179141",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-natural-single_720x.jpg?v=1623179141",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Lifestyle-Heritage-Belt-Natural-01_720x.jpg?v=1623179141",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-natural-front_720x.jpg?v=1623179141",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-natural-underside_720x.jpg?v=1623179141"],
-      "title":"Heritage Belt - Natural",
-      "price":"125.00",
-      "colors":["Stainless","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,36,38,40,42],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-natural-underside_720x.jpg?v=1623179141"
+      ],
+      "title": "Heritage Belt - Natural",
+      "price": "125.00",
+      "colors": [
+        "Stainless",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 15,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-saddle-tan-single_720x.jpg?v=1597335082",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-saddle-tan-single_720x.jpg?v=1597335082",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-saddle-tan-front_720x.jpg?v=1629492999",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/tanner-goods-heritage-belt-saddle-tan-underside_720x.jpg?v=1597335082",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement-Example_6361a7c1-5133-4c16-bb31-fade4253b38a_720x.jpg?v=1635893389"],
-      "title":"Heritage Belt - Saddle Tan",
-      "price":"125.00",
-      "colors":["Stainless","Black","Copper","Cast Brass"],
-      "Sizes":[28,30,32,34,40,42],
-      "Quantity":10,
-      "Description":{
-        "Para":"The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
-        "List":["Standard belt measures 1.5 inch wide","10-11oz English Bridle leather",
-       "Nickel plated roller bar buckle",
-        "Hand stamped TG logo mark",
-        "Hand-cast solid brass buckle optional (+$55)",
-        "Made in USA"]
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Monogram-Placement-Example_6361a7c1-5133-4c16-bb31-fade4253b38a_720x.jpg?v=1635893389"
+      ],
+      "title": "Heritage Belt - Saddle Tan",
+      "price": "125.00",
+      "colors": [
+        "Stainless",
+        "Black",
+        "Copper",
+        "Cast Brass"
+      ],
+      "Sizes": [
+        28,
+        30,
+        32,
+        34,
+        40,
+        42
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Standard Belt emphasizes utilitarian styling and is built to last and improve with age. Featuring a matching leather keep and metal hardware, the edges are dyed, burnished, waxed, and each belt is stamped with our signature makers mark.",
+        "List": [
+          "Standard belt measures 1.5 inch wide",
+          "10-11oz English Bridle leather",
+          "Nickel plated roller bar buckle",
+          "Hand stamped TG logo mark",
+          "Hand-cast solid brass buckle optional (+$55)",
+          "Made in USA"
+        ]
       },
-      "Sizing_Info":"Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
-      "image":"https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Sizing_Info": "Our belts are designed to be worn using the middle hole on the tail. The space between each hole is 1” so you can adjust as needed. It's always best to measure your waist where your pants sit but we have a free and easy exchange program so you can order with confidence if you're not 100% certain of your size.",
+      "image": "https://cdn.shopify.com/s/files/1/0044/9802/files/Screen_Shot_2022-03-16_at_9.29.14_PM.png?v=1647491384",
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     }
-
   ],
   "wallet": [
     {
       "id": 1,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_natural_2015_thumb_01_ad8f5886-5713-4322-a77b-7979818fe9d2_720x.jpg?v=1595467603",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_natural_2015_thumb_01_ad8f5886-5713-4322-a77b-7979818fe9d2_720x.jpg?v=1595467603",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanneer-Goods-Utility-Bifold-Natural-Lifestyle-01_720x.jpg?v=1595468032",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanneer-Goods-Utility-Bifold-Natural-Lifestyle-02_720x.jpg?v=1595468032",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_natural_2015_04_720x.jpeg?v=1595468032"],
-      "title":"Utility Bifold - Natural",
-      "price":"125.00",
-      "colors":["Natural"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_natural_2015_04_720x.jpeg?v=1595468032"
+      ],
+      "title": "Utility Bifold - Natural",
+      "price": "125.00",
+      "colors": [
+        "Natural"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-       
-       
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 2,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_thumb_01_d0c96c99-25be-4bae-9eab-297be4d54904_720x.jpg?v=1603228378",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_thumb_01_d0c96c99-25be-4bae-9eab-297be4d54904_720x.jpg?v=1603228378",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Cognac-01_720x.jpg?v=1637176517",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_01_720x.jpeg?v=1603228378",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_02_720x.jpeg?v=1603228378"],
-      "title":"Utility Bifold - Cognac",
-      "price":"125.00",
-      "colors":["Cognac"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_cognac_2015_02_720x.jpeg?v=1603228378"
+      ],
+      "title": "Utility Bifold - Cognac",
+      "price": "125.00",
+      "colors": [
+        "Cognac"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 3,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_thumb_01_03a8f05a-aa7a-419d-a06d-18f959052dc7_360x.jpg?v=1595468339",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_thumb_01_03a8f05a-aa7a-419d-a06d-18f959052dc7_360x.jpg?v=1595468339",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_04_360x.jpeg?v=1595468343",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_02_360x.jpeg?v=1595468343",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_03_360x.jpeg?v=1595468343"],
-      "title":"Utility Bifold - Black",
-      "price":"125.00",
-      "colors":["Black"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_03_360x.jpeg?v=1595468343"
+      ],
+      "title": "Utility Bifold - Black",
+      "price": "125.00",
+      "colors": [
+        "Black"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 4,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_thumb_6118db03-f8bd-485a-993e-d99d9f4301ac_360x.jpg?v=1595467175",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_thumb_6118db03-f8bd-485a-993e-d99d9f4301ac_360x.jpg?v=1595467175",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_04_360x.jpg?v=1595467175",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_01_360x.jpg?v=1595467175",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_02_360x.jpeg?v=1595467175"],
-      "title":"Utility Bifold - Saddle Tan",
-      "price":"125.00",
-      "colors":["Saddle Tan"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_saddle_tan_2015_02_360x.jpeg?v=1595467175"
+      ],
+      "title": "Utility Bifold - Saddle Tan",
+      "price": "125.00",
+      "colors": [
+        "Saddle Tan"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 5,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Golden-Harness-Thumb_1800x1800_8ffd1d51-8b63-4682-917d-c774cf9098a0_360x.jpg?v=1647890832",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Golden-Harness-Thumb_1800x1800_8ffd1d51-8b63-4682-917d-c774cf9098a0_360x.jpg?v=1647890832",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Lifestyle-Father_sDay-GH_360x.jpg?v=1647890832",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Golden-Harness-3_360x.jpg?v=1647890832",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Golden-Harness-2_360x.jpg?v=1647890832"],
-      "title":"Utility Bifold - Golden",
-      "price":"125.00",
-      "colors":["Golden"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Golden-Harness-2_360x.jpg?v=1647890832"
+      ],
+      "title": "Utility Bifold - Golden",
+      "price": "125.00",
+      "colors": [
+        "Golden"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 6,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Olive-Thumb_360x.jpg?v=1638511993",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Olive-Thumb_360x.jpg?v=1638511993",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Olive-Open_360x.jpg?v=1638511993",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Bifold-Safari_Olive-2017-MONOGRAM_360x.jpg?v=1646076720",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Olive-Thumb_360x.jpg?v=1638511993"],
-      "title":"Utility Bifold - Olive",
-      "price":"125.00",
-      "colors":["Olive"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Olive-Thumb_360x.jpg?v=1638511993"
+      ],
+      "title": "Utility Bifold - Olive",
+      "price": "125.00",
+      "colors": [
+        "Olive"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 7,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Front_360x.jpg?v=1638513400",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Front_360x.jpg?v=1638513400",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Interior_360x.jpg?v=1638513400",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Front_360x.jpg?v=1638513400",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Interior_360x.jpg?v=1638513400"],
-      "title":"Utility Bifold - Cobalt",
-      "price":"125.00",
-      "colors":["Cobalt"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Blue-Interior_360x.jpg?v=1638513400"
+      ],
+      "title": "Utility Bifold - Cobalt",
+      "price": "125.00",
+      "colors": [
+        "Cobalt"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 8,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Front_360x.jpg?v=1638513540",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Front_360x.jpg?v=1638513540",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Interior_360x.jpg?v=1638513540",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Front_360x.jpg?v=1638513540",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Interior_360x.jpg?v=1638513540"],
-      "title":"Utility Bifold - Plum",
-      "price":"125.00",
-      "colors":["Plum"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Purple-Interior_360x.jpg?v=1638513540"
+      ],
+      "title": "Utility Bifold - Plum",
+      "price": "125.00",
+      "colors": [
+        "Plum"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 9,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Thumb_360x.jpg?v=1638513146",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Thumb_360x.jpg?v=1638513146",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_monogram_387fe614-bb14-4ab8-96ff-7798bdbc48e1_360x.jpg?v=1646076409",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Thumb_360x.jpg?v=1638513146",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_monogram_387fe614-bb14-4ab8-96ff-7798bdbc48e1_360x.jpg?v=1646076409"],
-      "title":"Utility Bifold - Charcoal",
-      "price":"125.00",
-      "colors":["Charcoal"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/bifold_black_2015_monogram_387fe614-bb14-4ab8-96ff-7798bdbc48e1_360x.jpg?v=1646076409"
+      ],
+      "title": "Utility Bifold - Charcoal",
+      "price": "125.00",
+      "colors": [
+        "Charcoal"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 10,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured_360x.jpg?v=1645657119",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured_360x.jpg?v=1645657119",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured-Open_360x.jpg?v=1645657119",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured_360x.jpg?v=1645657119",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured-Open_360x.jpg?v=1645657119"],
-      "title":"Utility Bifold - Textured Charcoal",
-      "price":"125.00",
-      "colors":["Charcoal"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Charcoal-Textured-Open_360x.jpg?v=1645657119"
+      ],
+      "title": "Utility Bifold - Textured Charcoal",
+      "price": "125.00",
+      "colors": [
+        "Charcoal"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 11,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Front_360x.jpg?v=1638512833",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Front_360x.jpg?v=1638512833",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Interior_360x.jpg?v=1638512833",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Front_360x.jpg?v=1638512833",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Interior_360x.jpg?v=1638512833"],
-      "title":"Utility Bifold - Red",
-      "price":"125.00",
-      "colors":["Red"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Bifold-Red-Interior_360x.jpg?v=1638512833"
+      ],
+      "title": "Utility Bifold - Red",
+      "price": "125.00",
+      "colors": [
+        "Red"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 12,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown_360x.jpg?v=1645657040",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown_360x.jpg?v=1645657040",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown-Open_360x.jpg?v=1645657040",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown_360x.jpg?v=1645657040",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown-Open_360x.jpg?v=1645657040"],
-      "title":"Utility Bifold - Brown",
-      "price":"125.00",
-      "colors":["Brown"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Brown-Open_360x.jpg?v=1645657040"
+      ],
+      "title": "Utility Bifold - Brown",
+      "price": "125.00",
+      "colors": [
+        "Brown"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 13,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Medium-Brown_360x.jpg?v=1645657482",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Medium-Brown_360x.jpg?v=1645657482",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Medium-Brown-Open_360x.jpg?v=1645657482",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Monogram-Placement-Example_7d827bbe-8471-452b-8871-d83474ecd1cc_360x.jpg?v=1646076691",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Monogram-Placement-Example_7d827bbe-8471-452b-8871-d83474ecd1cc_360x.jpg?v=1646076691"],
-      "title":"Utility Bifold - Medium Brown",
-      "price":"125.00",
-      "colors":["Medium Brown"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Monogram-Placement-Example_7d827bbe-8471-452b-8871-d83474ecd1cc_360x.jpg?v=1646076691"
+      ],
+      "title": "Utility Bifold - Medium Brown",
+      "price": "125.00",
+      "colors": [
+        "Medium Brown"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 14,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Thumb_360x.jpg?v=1638512600",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Thumb_360x.jpg?v=1638512600",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Open_360x.jpg?v=1638512600",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Open_360x.jpg?v=1638512600",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Thumb_360x.jpg?v=1638512600"],
-      "title":"Utility Bifold - Oxblood",
-      "price":125.00,
-      "colors":["Oxblood"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Utility-Bifold-Oxblood-Thumb_360x.jpg?v=1638512600"
+      ],
+      "title": "Utility Bifold - Oxblood",
+      "price": 125,
+      "colors": [
+        "Oxblood"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 15,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_thumb_01_360x.jpg?v=1629492883",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_thumb_01_360x.jpg?v=1629492883",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Amazon-Tanner-Goods-Journeyman-Natural_360x.jpg?v=1629492883",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_04_360x.jpg?v=1629492883",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_02_360x.jpg?v=1629492883"],
-      "title":"Journeyman - Natural",
-      "price":85.00,
-      "colors":["Natural"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_02_360x.jpg?v=1629492883"
+      ],
+      "title": "Journeyman - Natural",
+      "price": 85,
+      "colors": [
+        "Natural"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 16,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_cognac_2020_thumb_01_360x.jpg?v=1629492964",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_cognac_2020_thumb_01_360x.jpg?v=1629492964",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanner-Goods-Journeyman-Cognac-Lifestyle_360x.jpg?v=1629492964",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_cognac_2020_02_360x.jpg?v=1629492964",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_cognac_2020_04_360x.jpg?v=1629492964"],
-      "title":"Journeyman - Cognac",
-      "price":85,
-      "colors":["Cognac"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_cognac_2020_04_360x.jpg?v=1629492964"
+      ],
+      "title": "Journeyman - Cognac",
+      "price": 85,
+      "colors": [
+        "Cognac"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 17,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_saddle_tan_2020_thumb_01_360x.jpg?v=1629492879",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_saddle_tan_2020_thumb_01_360x.jpg?v=1629492879",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanner-Goods-Journeyman-Saddle-Lifestyle-01_360x.jpg?v=1629492879",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanner-Goods-Journeyman-Saddle-Lifestyle_360x.jpg?v=1629492879",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_saddle_tan_2020_02_360x.jpg?v=1629492879"],
-      "title":"Journeyman - Saddle Tan",
-      "price":85,
-      "colors":["Saddal Tan"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_saddle_tan_2020_02_360x.jpg?v=1629492879"
+      ],
+      "title": "Journeyman - Saddle Tan",
+      "price": 85,
+      "colors": [
+        "Saddal Tan"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "3.5oz leather",
           "4 Card pockets",
-       "2 Hidden pockets",
-        "Bill pocket",
-        "Burnished and waxed",
-        "Made in USA"]
+          "2 Hidden pockets",
+          "Bill pocket",
+          "Burnished and waxed",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 18,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2020_thumb_01_360x.jpg?v=1629492956",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2020_thumb_01_360x.jpg?v=1629492956",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2020_02_360x.jpg?v=1629492956",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2020_03_360x.jpg?v=1629492956",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2015_monogram_360x.jpg?v=1618966406"],
-      "title":"Journeyman - Black",
-      "price":85,
-      "colors":["Black"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_black_2015_monogram_360x.jpg?v=1618966406"
+      ],
+      "title": "Journeyman - Black",
+      "price": 85,
+      "colors": [
+        "Black"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 19,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_thumb_01_cd11fa34-61ce-4b05-91a5-adb690f2fd77_360x.jpg?v=1638303744",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/journeyman_natural_2020_thumb_01_cd11fa34-61ce-4b05-91a5-adb690f2fd77_360x.jpg?v=1638303744",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Journeyman-Golden-Harness-3_360x.jpg?v=1638303744",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Journeyman-Golden-Harness-2_360x.jpg?v=1638303744",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Journeyman-Golden-Harness-Monogram_1_360x.jpg?v=1638303744"],
-      "title":"Journeyman - Golden",
-      "price":85,
-      "colors":["Golden"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Wallets-Journeyman-Golden-Harness-Monogram_1_360x.jpg?v=1638303744"
+      ],
+      "title": "Journeyman - Golden",
+      "price": 85,
+      "colors": [
+        "Golden"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 20,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Thumb_360x.jpg?v=1638517563",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Thumb_360x.jpg?v=1638517563",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Back_360x.jpg?v=1638517563",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Thumb_360x.jpg?v=1638517563",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Back_360x.jpg?v=1638517563"],
-      "title":"Journeyman - Olive",
-      "price":85,
-      "colors":["Olive"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Journeyman-Olive-Back_360x.jpg?v=1638517563"
+      ],
+      "title": "Journeyman - Olive",
+      "price": 85,
+      "colors": [
+        "Olive"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 21,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Front_360x.jpg?v=1638517761",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Front_360x.jpg?v=1638517761",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Back_360x.jpg?v=1638517761",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Front_360x.jpg?v=1638517761",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Back_360x.jpg?v=1638517761"],
-      "title":"Journeyman - Red",
-      "price":85,
-      "colors":["Red"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Red-Back_360x.jpg?v=1638517761"
+      ],
+      "title": "Journeyman - Red",
+      "price": 85,
+      "colors": [
+        "Red"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 22,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Front_360x.jpg?v=1638518007",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Front_360x.jpg?v=1638518007",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Back_360x.jpg?v=1638518007",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Front_360x.jpg?v=1638518007",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Back_360x.jpg?v=1638518007"],
-      "title":"Journeyman - Cobalt",
-      "price":85,
-      "colors":["Cobalt"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Limited-Journeyman-Blue-Back_360x.jpg?v=1638518007"
+      ],
+      "title": "Journeyman - Cobalt",
+      "price": 85,
+      "colors": [
+        "Cobalt"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 23,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Thumb_360x.jpg?v=1597255629",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Thumb_360x.jpg?v=1597255629",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Black-Lifestyle-02_360x.jpg?v=1597255629",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Black-Angle-Card_360x.jpg?v=1597255629",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Black-Angle_360x.jpg?v=1597255629"],
-      "title":"Minimal Cardholder - Carbon",
-      "price":55,
-      "colors":["Carbon"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.Cut from one lightweight piece of 3oz Skirting leather, the wear characteristics are similar to Natural Tooling, so it will patina to your personal journey. The Card Holder features one central pocket with an angled card slot cut into the leather.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/TG-Minimal-Card-Holder-Black-Angle_360x.jpg?v=1597255629"
+      ],
+      "title": "Minimal Cardholder - Carbon",
+      "price": 55,
+      "colors": [
+        "Carbon"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.Cut from one lightweight piece of 3oz Skirting leather, the wear characteristics are similar to Natural Tooling, so it will patina to your personal journey. The Card Holder features one central pocket with an angled card slot cut into the leather.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "Vegetable-tanned leather",
           "Dimensions Closed – 3.5 inch x 2.75",
-        
-        "Designed in: Portland, Oregon",
-        
-        "Made in USA"]
+          "Designed in: Portland, Oregon",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 24,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/workman_natural_2015_thumb_046fdfe5-34a2-490d-ae8d-12ca2dbbb340_360x.jpeg?v=1597256031",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_natural_2015_thumb_046fdfe5-34a2-490d-ae8d-12ca2dbbb340_360x.jpeg?v=1597256031",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanner-Goods-Workman-Wallet-Natural-Lifestyle-01_360x.jpg?v=1597256340",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Tanner-Goods-Workman-Wallet-Natural-Lifestyle-02_360x.jpg?v=1597256340",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_natural_2015_03_360x.jpeg?v=1597256340"],
-      "title":"Workman Wallet - Natural",
-      "price":180,
-      "colors":["Natural"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_natural_2015_03_360x.jpeg?v=1597256340"
+      ],
+      "title": "Workman Wallet - Natural",
+      "price": 180,
+      "colors": [
+        "Natural"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 25,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_thumb_43d9f426-1c38-4810-8b3e-1972397da1fc_360x.jpeg?v=1597256404",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_thumb_43d9f426-1c38-4810-8b3e-1972397da1fc_360x.jpeg?v=1597256404",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_03_360x.jpeg?v=1597256407",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_04_360x.jpeg?v=1597256407",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_02_360x.jpeg?v=1597256407"],
-      "title":"Workman Wallet - Cognac",
-      "price":180,
-      "colors":["Cognac"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
-        "List":["Bifold dimensions closed: 4.25 inch x 3.25",
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/workman_cognac_2015_02_360x.jpeg?v=1597256407"
+      ],
+      "title": "Workman Wallet - Cognac",
+      "price": 180,
+      "colors": [
+        "Cognac"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Constructed from 3.5oz. Natural tooling leather, our Utility Bifold features four card-slot pockets, two hidden pockets, and one lengthwise pocket for bills. Each wallet is burnished, dyed, waxed, and stamped with our signature maker's mark.",
+        "List": [
+          "Bifold dimensions closed: 4.25 inch x 3.25",
           "English Bridle leather",
           "4 Card pockets",
-        
-        "Central pocket",
-        
-        "Made in USA"]
+          "Central pocket",
+          "Made in USA"
+        ]
       },
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
-        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     }
-      
-],
-  "tableware":[
+  ],
+  "tableware": [
     {
       "id": 1,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Small-Mug-Sandstone_360x.jpg?v=1648746508",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Small-Mug-Sandstone_360x.jpg?v=1648746508",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Small-Mug-Rosado_1c6bba38-5f25-4587-8048-0dfb536ccf33_360x.jpg?v=1649996132",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Small-Mug-Gabbro-Thumb_360x.jpg?v=1649996132",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Newsletter-Small-Mug_2afaa264-a015-4a6b-97cc-bad87239b978_360x.jpg?v=1650400863"],
-      
-      "title":"Small Mug",
-      "price":32.00,
-      "colors":["Sandstone","Rosado","Black","Gabro"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
-        "List":["Capacity: 8oz","Food-safe, Dishwasher and Microwave Safe",
-       "Slip cast vitrified stoneware",
-        "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Newsletter-Small-Mug_2afaa264-a015-4a6b-97cc-bad87239b978_360x.jpg?v=1650400863"
+      ],
+      "title": "Small Mug",
+      "price": 32,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black",
+        "Gabro"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
+        "List": [
+          "Capacity: 8oz",
+          "Food-safe, Dishwasher and Microwave Safe",
+          "Slip cast vitrified stoneware",
+          "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 2,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Small-Mug-Sandstone_360x.jpg?v=1648746508",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Small-Mug-Sandstone_360x.jpg?v=1648746508",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Small-Mug-Rosado_1c6bba38-5f25-4587-8048-0dfb536ccf33_360x.jpg?v=1649996132",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Standard-Mug-Collection_015ca7ca-6c01-4f20-81a7-028195178e48_360x.jpg?v=1650400698",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Newsletter-Small-Mug_2afaa264-a015-4a6b-97cc-bad87239b978_360x.jpg?v=1650400863"],
-      "title":"Standard Mug",
-      "price":36.00,
-      "colors":["Sandstone","Rosado","Black","Gabro"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
-        "List":["Capacity: 8oz","Food-safe, Dishwasher and Microwave Safe",
-       "Slip cast vitrified stoneware",
-        "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Newsletter-Small-Mug_2afaa264-a015-4a6b-97cc-bad87239b978_360x.jpg?v=1650400863"
+      ],
+      "title": "Standard Mug",
+      "price": 36,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black",
+        "Gabro"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
+        "List": [
+          "Capacity: 8oz",
+          "Food-safe, Dishwasher and Microwave Safe",
+          "Slip cast vitrified stoneware",
+          "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 23,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Crater-Lake-Mug-Sandstone_360x.jpg?v=1650000939",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Crater-Lake-Mug-Sandstone_360x.jpg?v=1650000939",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Crater-Lake-Mug-Rosado_721769d3-3bcc-4f07-ad5a-e8a6464c399b_360x.jpg?v=1650000939",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Crater-Lake-Mug-Gabbro-Thumb_360x.jpg?v=1650000939",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Lifestyle-CraterLake-Onyx-5_360x.jpg?v=1650400848"],
-      "title":"Crater Lake Mug",
-      "price":38.00,
-      "colors":["Sandstone","Rosado","Black","Gabro"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
-        "List":["Capacity: 8oz","Food-safe, Dishwasher and Microwave Safe",
-       "Slip cast vitrified stoneware",
-        "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Lifestyle-CraterLake-Onyx-5_360x.jpg?v=1650400848"
+      ],
+      "title": "Crater Lake Mug",
+      "price": 38,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black",
+        "Gabro"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "The Small Mug was designed with the espresso drinker in mind, bringing the rich feel of hand-crafted ceramics to your table. Crafted so the handle and body provide a comfortable grip when in use and a tapered, unglazed foot that allows sets to nest together neatly when stored.",
+        "List": [
+          "Capacity: 8oz",
+          "Food-safe, Dishwasher and Microwave Safe",
+          "Slip cast vitrified stoneware",
+          "Dimensions – 2 ⅞” W (4 ⅛” from lip to handle) x 3 ⅜” T",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama ceramics are handmade and some variation is to be expected. Mazama ceramics can be washed safely in the dishwasher, however, we recommend hand washing for the longest lifespan. For further information about how to care for your ceramics, please see our ceramic care page."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 24,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Small-Plate-Thumb_360x.jpg?v=1617085417",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Small-Plate-Thumb_360x.jpg?v=1617085417",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Side-Plate-Rosado_360x.jpg?v=1634329128",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Dinner-Plate-Edit_360x.gif?v=1634329917",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Rosado-Tableware-Collection-Social_360x.jpg?v=1634329106"],
-      "title":"Side Plate",
-      "price":42.00,
-      "colors":["Sandstone","Rosado","Black"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Our Side Plate compliments the design found in all Mazama pieces; the iconic beveled base, the timeless, angular lines and specially formulated clay. Designed to stack beautifully in open shelving and layer with our ceramic collection to create a striking table top scene for your next occasion, even if it's just take out. Each plate is ram pressed and hand finished so natural variation is to be expected.",
-        "List":["Dimensions – 7” diameter x ~⅜”  T at lip",
-       "Food safe, Dishwasher and Microwave Safe",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama Wares are handmade and some variation in the consistency of the product is to be expected. "
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Rosado-Tableware-Collection-Social_360x.jpg?v=1634329106"
+      ],
+      "title": "Side Plate",
+      "price": 42,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Our Side Plate compliments the design found in all Mazama pieces; the iconic beveled base, the timeless, angular lines and specially formulated clay. Designed to stack beautifully in open shelving and layer with our ceramic collection to create a striking table top scene for your next occasion, even if it's just take out. Each plate is ram pressed and hand finished so natural variation is to be expected.",
+        "List": [
+          "Dimensions – 7” diameter x ~⅜”  T at lip",
+          "Food safe, Dishwasher and Microwave Safe",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama Wares are handmade and some variation in the consistency of the product is to be expected. "
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 5,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Small-Plate-Thumb_360x.jpg?v=1617085417",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Small-Plate-Thumb_360x.jpg?v=1617085417",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Side-Plate-Rosado_360x.jpg?v=1634329128",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Dinner-Plate-Edit_360x.gif?v=1634329917",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Rosado-Tableware-Collection-Social_360x.jpg?v=1634329106"],
-      "title":"Dinner Plate",
-      "price":45.00,
-      "colors":["Sandstone","Rosado","Black"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Our Side Plate compliments the design found in all Mazama pieces; the iconic beveled base, the timeless, angular lines and specially formulated clay. Designed to stack beautifully in open shelving and layer with our ceramic collection to create a striking table top scene for your next occasion, even if it's just take out. Each plate is ram pressed and hand finished so natural variation is to be expected.",
-        "List":["Dimensions – 10” diameter x ½” T at lip",
-       "Food safe, Dishwasher and Microwave Safe",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama Wares are handmade and some variation in the consistency of the product is to be expected. "
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Rosado-Tableware-Collection-Social_360x.jpg?v=1634329106"
+      ],
+      "title": "Dinner Plate",
+      "price": 45,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Our Side Plate compliments the design found in all Mazama pieces; the iconic beveled base, the timeless, angular lines and specially formulated clay. Designed to stack beautifully in open shelving and layer with our ceramic collection to create a striking table top scene for your next occasion, even if it's just take out. Each plate is ram pressed and hand finished so natural variation is to be expected.",
+        "List": [
+          "Dimensions – 10” diameter x ½” T at lip",
+          "Food safe, Dishwasher and Microwave Safe",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama Wares are handmade and some variation in the consistency of the product is to be expected. "
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 6,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Stacking-Bowl-Thumb_360x.jpg?v=1616733036",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Stacking-Bowl-Thumb_360x.jpg?v=1616733036",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Stacking-Bowl-Sandstone_0dca2ba9-a37d-4e12-aa48-f29c85ddddab_360x.jpg?v=1634329551",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Stacking-Bowl-Onyx_1ed82a3a-791b-4c0d-9a0e-949ee1cf2577_360x.jpg?v=1634329552",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Stacking-Bowl-Rosado_360x.jpg?v=1634329483"],
-      "title":"Stacking Bowl",
-      "price":40.00,
-      "colors":["Sandstone","Rosado","Black"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Mazama was created to bring people together around the warmth of good conversation with the unique character of well-crafted ceramics. Our Stacking Bowl was designed with modern bowl recipes in mind, yet remains a versatile go-to for any culinary occasion from mac & cheese to curry and rice. When stored, these bowls stack into beautiful columns that bring a bold yet timeless touch to your kitchen.",
-        "List":["Dimensions – 6” diameter x 2 ¼” Tall",
-       "Capacity: 23 oz.",
-        "Designed in Portland, Oregon",
-        "Made in Dolores Hidalgo, Mexico"],
-        "info":"Mazama Wares are handmade and some variation in the consistency of the product is to be expected."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Stacking-Bowl-Rosado_360x.jpg?v=1634329483"
+      ],
+      "title": "Stacking Bowl",
+      "price": 40,
+      "colors": [
+        "Sandstone",
+        "Rosado",
+        "Black"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Mazama was created to bring people together around the warmth of good conversation with the unique character of well-crafted ceramics. Our Stacking Bowl was designed with modern bowl recipes in mind, yet remains a versatile go-to for any culinary occasion from mac & cheese to curry and rice. When stored, these bowls stack into beautiful columns that bring a bold yet timeless touch to your kitchen.",
+        "List": [
+          "Dimensions – 6” diameter x 2 ¼” Tall",
+          "Capacity: 23 oz.",
+          "Designed in Portland, Oregon",
+          "Made in Dolores Hidalgo, Mexico"
+        ],
+        "info": "Mazama Wares are handmade and some variation in the consistency of the product is to be expected."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 7,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Honey_360x.jpg?v=1616744956",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Honey_360x.jpg?v=1616744956",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Emerald_360x.jpg?v=1616744956",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Azure_360x.jpg?v=1616744956",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Amethyst_360x.jpg?v=1616744956"],
-      "title":"Carafe",
-      "price":105.00,
-      "colors":["Emerald","Azure","Amethyst","smoke"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Hand blown from durable soda-lime glass, our Carafe is a versatile serving vessel for any occasion. Featuring a wide mouth opening, it’s also perfect for adding ice into a lemonade or mixed drink and easy to stir with a spoon if you wish. Topped off with a beautiful natural oak wood ball stopper, our Carafe is practical as well as beautiful.",
-        "List":["Soda-lime glass",
-       "Natural oak stopper",
-        "36 fl oz capacity",
-        "10 ich H x 13.5inch D","Dishwasher safe, or hand wash mild soap","Handmade in Portland"],
-        "info":"All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Carafe-Amethyst_360x.jpg?v=1616744956"
+      ],
+      "title": "Carafe",
+      "price": 105,
+      "colors": [
+        "Emerald",
+        "Azure",
+        "Amethyst",
+        "smoke"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Hand blown from durable soda-lime glass, our Carafe is a versatile serving vessel for any occasion. Featuring a wide mouth opening, it’s also perfect for adding ice into a lemonade or mixed drink and easy to stir with a spoon if you wish. Topped off with a beautiful natural oak wood ball stopper, our Carafe is practical as well as beautiful.",
+        "List": [
+          "Soda-lime glass",
+          "Natural oak stopper",
+          "36 fl oz capacity",
+          "10 ich H x 13.5inch D",
+          "Dishwasher safe, or hand wash mild soap",
+          "Handmade in Portland"
+        ],
+        "info": "All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 11,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Spirit-Bottle-Thumb_360x.jpg?v=1617083126",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Spirit-Bottle-Thumb_360x.jpg?v=1617083126",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/MZ-Glassware-Spirit_Bottle-Honey-2018-Thumb_ba170179-4f0c-45f3-9372-e1a7026eb9ec_360x.jpg?v=1617083126",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Spirit-Bottle-Emerald_360x.jpg?v=1617083126",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Spirit-Bottle-Azure_360x.jpg?v=1617083126"],
-      "title":"Spirit Bottle",
-      "price":125.00,
-      "colors":["Emerald","Azure","Amethyst","smoke"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Our hand blown serving bottle is sure to please even the most discerning whisky drinker. Not into spirits? This versatile vessel works great for water service too, or remove the cork and you have a stunner of a handcrafted vase.",
-        "List":["11.75inch H x 14inch D",
-       "42 fluid oz maximum capacity",
-        "Cork stopper",
-        "Dishwasher safe, or hand wash mild soap","Handmade in Portland"],
-        "info":"All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Spirit-Bottle-Azure_360x.jpg?v=1617083126"
+      ],
+      "title": "Spirit Bottle",
+      "price": 125,
+      "colors": [
+        "Emerald",
+        "Azure",
+        "Amethyst",
+        "smoke"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Our hand blown serving bottle is sure to please even the most discerning whisky drinker. Not into spirits? This versatile vessel works great for water service too, or remove the cork and you have a stunner of a handcrafted vase.",
+        "List": [
+          "11.75inch H x 14inch D",
+          "42 fluid oz maximum capacity",
+          "Cork stopper",
+          "Dishwasher safe, or hand wash mild soap",
+          "Handmade in Portland"
+        ],
+        "info": "All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     },
     {
       "id": 12,
-       "images":["https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Pure-Thumb_d85728cf-7616-41e2-8ee0-1260f9ab2685_360x.jpg?v=1617084881",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Pure-Thumb_d85728cf-7616-41e2-8ee0-1260f9ab2685_360x.jpg?v=1617084881",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Honey-Thumb_41e15724-bbe1-4468-8d93-90ce1804c005_360x.jpg?v=1617084865",
         "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Emerald-Thumb_a7bd5fad-a0d9-4b17-be8e-cd4691a3c00c_360x.jpg?v=1617084849",
-        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Smoke_360x.jpg?v=1617084849"],
-      "title":"Decanter",
-      "price":165.00,
-      "colors":["Emerald","Azure","Amethyst","smoke"],
-      
-      "Quantity":10,
-      "Description":{
-        "Para":"Our hand blown decanter makes for one amazing centerpiece for your next dinner party. Sturdy and durable, it will last you a lifetime of wine tasting.",
-        "List":["Hand blown soda-lime glass",
-       "Holds 750mL",
-        "11inch H x 27inch D",
-        "Dishwasher safe, or hand wash mild soap","Handmade in Portland"],
-        "info":"All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
+        "https://cdn.shopify.com/s/files/1/0044/9802/products/Mazama-Decanter-Smoke_360x.jpg?v=1617084849"
+      ],
+      "title": "Decanter",
+      "price": 165,
+      "colors": [
+        "Emerald",
+        "Azure",
+        "Amethyst",
+        "smoke"
+      ],
+      "Quantity": 10,
+      "Description": {
+        "Para": "Our hand blown decanter makes for one amazing centerpiece for your next dinner party. Sturdy and durable, it will last you a lifetime of wine tasting.",
+        "List": [
+          "Hand blown soda-lime glass",
+          "Holds 750mL",
+          "11inch H x 27inch D",
+          "Dishwasher safe, or hand wash mild soap",
+          "Handmade in Portland"
+        ],
+        "info": "All Mazama glassware is handcrafted making every piece special and unique. Small bubbles and natural variations in color, shape and size are expected and unique to the glassblowing process."
       },
-       
-      
-      "Returns_Exchange":["Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.","If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."]
+      "Returns_Exchange": [
+        "Tanner Goods | Mazama gladly accepts returns for refund, exchange, or store credit on unused, qualifying items within 30 days of receiving your purchase. Monogrammed items, final sale, and sample sale goods will not be eligible for returns and exchanges.",
+        "If you'd like to make a return, just head over to our Returns Center and have your order number or email address handy."
+      ]
     }
   ]
 }

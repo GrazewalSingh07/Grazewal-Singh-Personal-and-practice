@@ -13,17 +13,17 @@ import {BsPaypal} from "react-icons/bs"
 export const Footer=()=>{
     const [eamilstate,setemailstate]=useState(false)
     return(<>
-        <div style={{display:"flex"}}>
-            <div>
+        <div style={{display:"flex", margin:"2rem"}}>
+            <div style={{margin:"2rem", width:"400px"}}>
                 <p>TANNER GOODS</p>
 
                 <p>In a world where we are overwhelmed by products made to break down or go out style, we aim to go against that grain.</p>
                 <Link to="/About">About Us</Link>
             </div>
-            <div>
-            <p>SUPPORT</p> 
+            <div style={{margin:"2rem", width:"400px"}}>
+            
                 <ul>
-              
+                <p><b>SUPPORT</b></p> 
                 <p>Contact Us</p>
                 <p>Shipping</p>
                 <p>Returns & Exchanges</p>
@@ -31,9 +31,10 @@ export const Footer=()=>{
                 <p>Careers</p>
                 </ul>
             </div>
-            <div>
-                <p>SHOP</p>
+            <div style={{margin:"2rem", width:"400px"}}>
+                
                 <ul>
+                    <p><b>SHOP</b></p>
                     <p>Mazama</p>
                     <p>Best Sellers</p>
                     <p>Neew Arrivals</p>
@@ -44,8 +45,8 @@ export const Footer=()=>{
                 </ul>
             </div>
 
-            <div>
-                <p>STAY IN THE LOOP</p>
+            <div style={{margin:"2rem", width:"400px"}}>
+                <p><b>STAY IN THE LOOP</b></p>
                 <p>
                 Subscribe to receive exclusive offers and be the first to know of new product releases.
                 </p>
@@ -53,20 +54,20 @@ export const Footer=()=>{
                 <input type="text" placeholder="Enter your email" onChange={()=>setemailstate(true)}  style={{border:"none", borderBottom:"2px solid black", outline:"none", width:"200px"}}/>
                  <div style={{marginLeft:"-50px"}}> {eamilstate? <p>Subscribe</p>:<AiOutlineMail/>}</div>
                 </div>
-                <div>
+                <div  style={{margin:"1rem", width:"200px"}}>
                 <FaInstagram className="icons"/>
                 <FaFacebook className="icons"/>
                 </div>
             </div>
             
         </div>
-        <div>
-            <FaAmazon/>
-            <GrAmex/>
-            <SiGooglepay/>
-             <RiVisaFill/>
-            <FaCcMastercard/>
-            <BsPaypal/>
+        <div  style={{ display:"flex",justifyContent:"space-between", width:"30%",margin:"auto"}}>
+            <FaAmazon style={{fontSize:"2rem", margin:"1rem", cursor:"pointer"}}/>
+            <GrAmex style={{fontSize:"2rem",margin:"1rem", cursor:"pointer"}}/>
+            <SiGooglepay style={{fontSize:"2rem",margin:"1rem", cursor:"pointer"}}/>
+             <RiVisaFill style={{fontSize:"2rem",margin:"1rem", cursor:"pointer"}}/>
+            <FaCcMastercard style={{fontSize:"1rem",margin:"1rem", cursor:"pointer"}}/>
+            <BsPaypal style={{fontSize:"2rem",margin:"1rem", cursor:"pointer"}}/>
             {/* <IoLogoVenmo/> */}
         </div>
         </>

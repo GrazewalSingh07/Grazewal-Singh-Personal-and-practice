@@ -12,7 +12,7 @@ export const Belt=()=>{
     const [data,setdata]=useState([])
     useEffect(()=>{
         axios.get("http://localhost:8080/belt").then((res)=>{
-            console.log(res.data)
+            // console.log(res.data)
             setdata(res.data)
         }).catch((err)=>{
             console.log(err)
@@ -74,9 +74,9 @@ export const Belt=()=>{
                     closable={false}
                     onClose={onClose}
                     visible={visible}
-                    key={placement}>
-                        
-                    </Drawer>
+                    key={placement}>        
+                </Drawer>
+
                  </div>
                  <Slider/>
                 <Button onClick={showDrawer}>Filter</Button>

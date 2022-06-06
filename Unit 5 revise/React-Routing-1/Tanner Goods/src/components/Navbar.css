@@ -23,3 +23,10 @@
     width: 70px;
     font-size: 25px;
 }
+.cartprod{
+    display: flex;
+    margin: 1rem;
+}
+.cartprod>div>img{
+    width: 100px;
+}

@@ -5,8 +5,10 @@
  import "./Navbar.css"
 import { Menu, Dropdown, Button } from 'antd';
  import { useNavigate } from "react-router-dom";
-
-
+import { Drawer } from "antd"
+import { useState } from "react";
+import { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 const  TannerGoods = (
   <div  className="megadropdown" style={{display:"flex", margin: "1rem 1rem ", justifyContent:"space-around", width:"100%",background:"white"}} >
       <div style={{ margin: "1rem"}}>
@@ -242,7 +244,20 @@ const  MazamaWares = (
  
 export const Navbar=()=>{
     const navigate=useNavigate()
-    return   <div  style={{display:"flex", justifyContent:"space-evenly", padding:"20px",marginTop:"1rem",border:"1px solid #F5F5F5"}}>
+    const [cartdata]= useContext(AppContext)
+     console.log(cartdata)
+    const [visible, setVisible] = useState(false);
+    const [placement, setPlacement] = useState('right');
+    const showDrawer = () => {
+        setVisible(true); 
+        
+      };
+    
+      const onClose = () => {
+        setVisible(false);
+      };
+
+    return  <> <div  style={{display:"flex", justifyContent:"space-evenly", padding:"20px",marginTop:"1rem",border:"1px solid #F5F5F5"}}>
         <div style={{cursor:"pointer"}} onClick={()=>navigate("/")}>
             <img  src="https://cdn.shopify.com/s/files/1/0044/9802/files/Tanner-Goods-Mazama-Logo_150x.png?v=1600190052" alt="" />
         </div>
@@ -266,8 +281,30 @@ export const Navbar=()=>{
             
             <AiOutlineUser className="icons"/>
             <BsSearch className="icons"/>
-            <BsBag className="icons"/>
+            <BsBag className="icons" onClick={showDrawer}/>
+            
         </div>
+        
     </div>
+    <Drawer title="Cart"
+        placement={placement}
+        closable={false}
+        onClose={onClose}
+        visible={visible}
+        key={placement}>             
+     {cartdata?.map((el)=>(
+        <div className="cartprod">
+            <div>
+                <img src={el.images[0]} alt={el.title} />
+            </div>
+           <div>
+            <p>{el.title}</p>
+            <p>{el.price}</p>
+           </div>
+
+        </div>
+     ))}
+  </Drawer>
+</>
     
 }

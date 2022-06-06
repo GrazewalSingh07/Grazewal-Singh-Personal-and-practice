@@ -1,12 +1,29 @@
-import React, { useState } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 export const AppContext=React.createContext()
 export const AppContextProvider=({children})=>{
-    const [data,setData]=useState([])
+    const [cartdata,setCartData]=useState([])
+    const [vartemp,setvartemp]=useState(true)
     function handledata(data){
-    setData(data)
+     axios.get("http://localhost:8080/cart").then((res)=>{
+        //  console.log(res.data)
+         setCartData(res.data)
+     }).catch((err)=>{
+         console.log(err)
+     })
     }
+  
+    function handlevartemp(){
+        setvartemp(!vartemp)
+    }
+    useEffect(()=>{
+        handledata()
+    },[vartemp])
+    useEffect(()=>{
+        handledata()
+    },[])
     return (
-        <AppContext.Provider value={[data,handledata]}>{children}</AppContext.Provider>
+        <AppContext.Provider value={[cartdata,handledata,handlevartemp]}>{children}</AppContext.Provider>
     )
 }
