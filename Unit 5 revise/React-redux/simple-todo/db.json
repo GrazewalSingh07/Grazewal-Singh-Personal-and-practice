@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Dynamic Programming",
+      "status": false
+    },
+    {
+      "id": "01Wz-HJjSZHFiSd7GueeY",
+      "title": "react",
+      "status": false
+    },
+    {
+      "id": "pnkKCArimrpKBbzFNVO3S",
+      "title": "dsa",
+      "status": false
+    },
+    {
+      "id": "feEo7oHYIe1dFXNcblwuY",
+      "title": "MERN",
+      "status": false
+    },
+    
+  ]
+}
