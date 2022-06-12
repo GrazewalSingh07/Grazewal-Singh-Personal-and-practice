@@ -1,4 +1,8 @@
-import { legacy_createStore } from "redux";
+import { legacy_createStore,combineReducers } from "redux";
 import { reducer } from "./todo/reducer";
-
-export const store=legacy_createStore(reducer)
+import { Authreducer } from "./Auth/reducer";
+const rootReducer=combineReducers({
+    auth: Authreducer,
+    todo:reducer
+})
+export const store=legacy_createStore(rootReducer)
