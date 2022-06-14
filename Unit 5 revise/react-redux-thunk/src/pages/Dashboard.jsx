@@ -1,14 +1,14 @@
 import {   useEffect, useState } from "react"
 import { useDispatch,useSelector } from "react-redux"
 import { fetchUsers } from "../Redux/GithubUser/action"
-
+import {Navigate} from "react-router-dom"
 export const Dashboard=()=>{
     const [page,setpage]=useState(1)
     const dispatch=useDispatch()
     const user=useSelector((state)=>state.user.user)
     const isLoading=useSelector((state)=>state.user.isLoading)
     const [search,setsearch]=useState("")
-
+    const isAuth= useSelector((state)=>state.auth.isAuth)
     function searchUser(){
         dispatch(fetchUsers(page,search))
         
@@ -17,6 +17,10 @@ export const Dashboard=()=>{
     useEffect(()=>{
         dispatch(fetchUsers(page,search))
     },[page])
+    if(!isAuth){
+        alert("Please login first")
+       return <Navigate to="/signin"></Navigate>
+    }
     return <div> 
        <h1> Search for GitHub Users</h1>
        <input type="text" placeholder="search" onChange={(e)=>setsearch(e.target.value)}/>
