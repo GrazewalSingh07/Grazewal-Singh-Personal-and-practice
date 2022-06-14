@@ -1,8 +1,8 @@
 import * as types from "./actionTypes"
 
 const initState={
-   user:[],
-    isLoading:true,
+    user:[],
+    isLoading:false,
     isError:false,
 
 
@@ -10,13 +10,13 @@ const initState={
 export const githubreducer=(state=initState,{type,payload})=>{
    console.log(payload)
     switch(type){
-        case types.FETCH_TODO_REQUEST:{
+        case types.FETCH_USER_REQUEST:{
             return{
                 ...state,
                 isLoading:true
             }
         }
-        case types.FETCH_TODO_SUCCESS:{
+        case types.FETCH_USER_SUCCESS:{
             return{
                 ...state,
                 user:payload,
@@ -24,7 +24,7 @@ export const githubreducer=(state=initState,{type,payload})=>{
                 isError:false
             }
         }
-        case types.FETCH_TODO_FAILURE:{
+        case types.FETCH_USER_FAILURE:{
             return{
                 ...state,
                 isLoading:false,

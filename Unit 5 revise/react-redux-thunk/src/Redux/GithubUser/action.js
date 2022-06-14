@@ -19,12 +19,12 @@ export const userFailure=()=>{
 }
 export const fetchUsers=(page,q)=>(dispatch)=>{
     dispatch(userRequest)
-    return axios.get(`https://api.github.com/search/users?page=${page}&per_page=10`,{
+    return axios.get(`https://api.github.com/search/users?page=${page}&per_page=5`,{
         params:{
             q
         }
     }).then((res)=>{
-        dispatch(userSuccess(res.data))
+        dispatch(userSuccess(res.data.items))
         // console.log(res.data)
     }).catch((err)=>{
         dispatch(userFailure)
