@@ -22,10 +22,10 @@ export const authenticate=(data)=>(dispatch)=>{
     dispatch(authRequest)
     return axios.post("https://masai-api-mocker.herokuapp.com/auth/login",data
     ).then((res)=>{
-        // dispatch(authSuccess(res.data.token))
+        dispatch(authSuccess(res.data.token))
         console.log( res)
     }).catch((err)=>{
-        // dispatch(authFailure(err.data))
-        console.log("err"+ err)
+        dispatch(authFailure(err.data))
+        // console.log("err"+ err)
     })
 }

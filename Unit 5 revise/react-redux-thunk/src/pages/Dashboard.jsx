@@ -17,7 +17,7 @@ export const Dashboard=()=>{
     useEffect(()=>{
         dispatch(fetchUsers(page,search))
     },[page])
-    if(!isAuth){
+    if(isAuth==false){
         alert("Please login first")
        return <Navigate to="/signin"></Navigate>
     }

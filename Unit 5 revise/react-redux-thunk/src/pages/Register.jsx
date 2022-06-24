@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux/es/hooks/useDispatch"
 import { useState } from "react"
-import { addTodo, fetchTodo } from "../Redux/todo/action"
+ 
 import { RegisterAuthenticate } from "../Redux/Register/action"
 export const Register=()=>{
 

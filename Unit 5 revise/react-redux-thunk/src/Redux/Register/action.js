@@ -18,7 +18,7 @@ export const RegisterFailure=(payload)=>{
     }
 }
 export const RegisterAuthenticate=(data)=>(dispatch)=>{
-    console.log(data)
+    // console.log(data)
     dispatch(RegisterRequest)
     return axios.post("https://masai-api-mocker.herokuapp.com/auth/register",data
     ).then((res)=>{

@@ -3,8 +3,8 @@ import * as types from "./actionTypes"
 
 const initState={
     isAuth:false,
-   token:null,
-   error:null
+    token:null,
+    error:null
 
 }
 export const authReducer=(state=initState,{type,payload})=>{
