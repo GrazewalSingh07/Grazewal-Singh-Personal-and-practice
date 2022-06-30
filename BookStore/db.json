@@ -155,9 +155,9 @@
     {
       "id": 9,
       "no_of_chapters": 6,
-      "author": "Masai",
+      "author": "Tez",
       "": "https://pngimg.com/uploads/book/book_PNG2111.png",
-      "book_name": "Full-Stack Web Development",
+      "book_name": "Life of pie",
       "category": "Motivational",
       "release_year": 2014,
       "chapters": [
@@ -169,7 +169,8 @@
           "name": "CSS",
           "pages": 25
         }
-      ]
+      ],
+      "cover_photo": "http://localhost:3000/f004ab7e-4844-4b81-910e-ee2281c09c10"
     },
     {
       "id": 10,
