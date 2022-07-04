@@ -1,0 +1,21 @@
+.shoecard{
+    width:auto;
+    height: 20%;
+}
+.allshoe{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    margin: auto;
+    grid-gap: 1rem;
+}
+.imageshoe{
+    width: 100%;
+
+}
+.imageshoe>img{
+    width: 100%;
+}
+.shoedetail{
+
+}
