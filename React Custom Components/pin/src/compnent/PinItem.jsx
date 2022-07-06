@@ -1,6 +1,10 @@
-import { forwardRef } from "react"
+import { forwardRef, useState } from "react"
 
-export const PinItem=forwardRef(({onChange,onBackSpaceHandler},ref)=>{
+export const PinItem=forwardRef(({isdisabled,onChange,onBackSpaceHandler},ref)=>{
+    const [color,setcolor]=useState("black")
+    if(isdisabled){
+        // setcolor("green")
+    }
     const handlekeyup=(e)=>{
         // if backspace is clicked perform this action
         //else 
@@ -14,7 +18,8 @@ export const PinItem=forwardRef(({onChange,onBackSpaceHandler},ref)=>{
     }
  
     return(
-        <input ref={ref}
+        <input  className={isdisabled?"green":null}   ref={ref}
+        disabled={isdisabled}
             maxLength={1}
             // onChange={onChange}
             onKeyUp={handlekeyup}
