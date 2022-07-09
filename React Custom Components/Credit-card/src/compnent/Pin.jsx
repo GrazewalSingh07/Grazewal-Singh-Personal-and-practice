@@ -11,7 +11,7 @@ import { PinItem } from "./PinItem"
         value[index]=e.target.value
         setvalue(value)
        
-        if(index>0){
+        if(index>0&& !e.target.value){
             inputRef.current[index-1].focus()
         }
         SetOtpHandler(value.join(""))
@@ -23,10 +23,10 @@ import { PinItem } from "./PinItem"
       if(index==length-1){
         setdisabled(true)
              }
-        if(e.target.value.length>0&&index<length-1){
+        if(e.target.value.length==4&&index<length-1){
             inputRef.current[index+1].focus()
         }
-        SetOtpHandler(value.join(""))
+        SetOtpHandler(value.join("-"))
     }
     const handlePaste=(e)=>{
         //  12345
@@ -47,7 +47,7 @@ import { PinItem } from "./PinItem"
     }
     return <div onPaste={handlePaste} >
         { new Array(length).fill(1).map((el, index)=>{
-         return   <PinItem isdisabled={isdisabled} key={index} onChange={(e)=>handlechange(e,index)} ref={(el)=>{ inputRef.current[index]=el }}
+         return   <PinItem isdisabled={isdisabled} key={index} onChange={(e)=>handlechange(e,index)} length={4} ref={(el)=>{ inputRef.current[index]=el }}
          onBackSpaceHandler={(e)=>BackSpaceHandler(e,index)}/>
         })
         }
