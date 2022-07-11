@@ -14,12 +14,14 @@ const Login = () => {
   function handlelogin(e){
       e.preventDefault()
       dispatch(login({email,password}))
+
   }
-  console.log(token)
+  // console.log(token)
   
   if(token!=""){
-   return <Navigate to="/"/>
+   return <Navigate replace to="/" /> 
   }
+  
   return (
     <div>
       <h2>LOGIN</h2>
