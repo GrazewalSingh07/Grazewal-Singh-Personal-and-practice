@@ -47,7 +47,7 @@ import { PinItem } from "./PinItem"
     }
     return <div onPaste={handlePaste} >
         { new Array(length).fill(1).map((el, index)=>{
-         return   <PinItem isdisabled={isdisabled} key={index} onChange={(e)=>handlechange(e,index)} ref={(el)=>{ inputRef.current[index]=el }}
+         return   <PinItem isdisabled={isdisabled} key={index} onChange={(e)=>handlechange(e,index)} ref={(el)=>{inputRef.current[index]=el }}
          onBackSpaceHandler={(e)=>BackSpaceHandler(e,index)}/>
         })
         }
