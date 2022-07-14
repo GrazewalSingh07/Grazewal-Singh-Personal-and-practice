@@ -5,7 +5,7 @@ beforeEach(()=>{
     cy.visit("http://localhost:3000/")
 })
 describe("Should render app",()=>{
-    it("should check for todo",()=>{
+    it("should check for add todo",()=>{
         cy.get(".list").children().should("have.length","2")
         cy.get(".input_todo").type("Learn Redux")
         cy.get(".input_submit").click()
@@ -16,5 +16,17 @@ describe("Should render app",()=>{
         cy.get(".input_submit").click()
         cy.get(".error").should("exist")
      
+    })
+
+    // 
+
+    it("should check for delete todo",()=>{
+        cy.get(".list").children().should("have.length","2")
+        cy.get(".delete_button").eq(1).click()
+        cy.get(".list").children().should("have.length","1")
+    })
+    it("should check for todo delete button exists",()=>{
+ 
+        cy.get(".delete_button").should("exist")
     })
 })
