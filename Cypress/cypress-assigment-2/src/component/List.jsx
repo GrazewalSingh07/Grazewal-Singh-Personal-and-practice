@@ -55,9 +55,9 @@ export const List=()=>{
         <input className="input_submit" type="submit"  onClick={handlesubmit} />
         <ul type="none" className="list">
             {todo?.map((el,index)=>(
-                <div key={index} style={{display:"flex"}}> 
-                    <input type="checkbox" value={el.title} id="title" onChange={handlechecked}/>
-                    <li className={classname}>{el.title}</li>
+                <div className="list_child" key={index} style={{display:"flex"}}> 
+                    <input  className="checkbox" type="checkbox" value={el.title} id="title" onChange={handlechecked}/>
+                    <li className={`${classname}`}>{el.title}</li>
                     <button  className="delete_button"onClick={()=>deletelist(el.title)}>Delete</button>
                 </div>
             ))}

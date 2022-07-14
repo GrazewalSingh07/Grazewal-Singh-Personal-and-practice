@@ -29,4 +29,11 @@ describe("Should render app",()=>{
  
         cy.get(".delete_button").should("exist")
     })
+    it("should check if check box is getting created with every new todo",()=>{
+       
+        cy.get(".input_todo").type("Learn Redux")
+        cy.get(".input_submit").click()
+        cy.get(".list").children().eq(2).children().should("have.class","checkbox")
+    })
+    //checkbox
 })
