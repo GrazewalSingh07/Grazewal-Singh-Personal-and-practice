@@ -12,7 +12,7 @@ describe("check for input",()=>{
     })
     it("should type on dom",()=>{
         cy.get(".input_val").should("be.empty")
-        cy.get(".FormInput").type("Hey this is me")
-        cy.get(".input_val").should("have.text","Hey this is me")
+        cy.get(".FormInput").type("Hey this is me, Faruk")
+        cy.get(".input_val").should("have.text","Hey this is me, Faruk")
     })
 })
