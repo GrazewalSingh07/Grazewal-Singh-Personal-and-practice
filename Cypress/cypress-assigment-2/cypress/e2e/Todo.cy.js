@@ -35,5 +35,11 @@ describe("Should render app",()=>{
         cy.get(".input_submit").click()
         cy.get(".list").children().eq(2).children().should("have.class","checkbox")
     })
+    it("should check if check box is getting created with every new todo",()=>{
+       
+        cy.get(".checkbox").eq(1).click()
+        cy.get(".success").should("exist")
+        
+    })
     //checkbox
 })
