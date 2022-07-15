@@ -1,0 +1,10 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "build",
+        "target": "es6",
+        "declaration": true,
+        "sourceMap": true
+    }
+}
