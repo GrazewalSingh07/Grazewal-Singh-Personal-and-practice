@@ -1,4 +1,7 @@
  import styled from "styled-components"
+ import "./search.css"
+ import "./search"
+ 
  
 import { useState } from "react"
 export const SearchBar=({loading,setloading,onChange, suggestions})=>{
@@ -15,8 +18,8 @@ export const SearchBar=({loading,setloading,onChange, suggestions})=>{
     onChange("")
     setloading(false)
    }
-    return <>
-    <SearchBarWrapper len={suggestions.length}>
+    return <>  
+    <SearchBarWrapper  len={suggestions.length}>
         <Icon src="https://flyclipart.com/thumb2/search-icons-283914.png"/>
         <Input value={inputText} onChange={handleInputChange}/>
         <RightSide>

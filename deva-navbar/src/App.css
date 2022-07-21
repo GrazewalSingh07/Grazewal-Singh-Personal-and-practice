@@ -1,0 +1,8 @@
+ .App{
+  margin: auto;
+  padding: 2rem;
+  background-color: aqua;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+ }

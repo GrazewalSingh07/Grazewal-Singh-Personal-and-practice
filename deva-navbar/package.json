@@ -1,5 +1,5 @@
 {
-  "name": "corousel",
+  "name": "deva-navbar",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,12 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.2.4",
-    "antd": "^4.21.7",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-icons": "^4.4.0"
-   
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

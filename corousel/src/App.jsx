@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+ 
 import './App.css'
-import CaptionCarousel from './Corousel'
+import { Corousel } from './Corousel'
+  
 
 function App() {
- 
+  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-       <CaptionCarousel/>
+     <Corousel/>
     </div>
   )
 }
