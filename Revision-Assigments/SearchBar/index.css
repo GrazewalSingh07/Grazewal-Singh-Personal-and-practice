@@ -1,0 +1,36 @@
+.inputbox{
+   width: 50%;
+  padding: 1%;
+  font-size: larger;
+  outline: none;
+  border: none;
+  border-bottom:1px solid;
+ 
+}
+.container{
+    
+    margin: auto;
+}
+.data{
+    font-size: larger;
+    cursor: pointer;
+    background-color:aliceblue;
+    padding: 1%;
+    
+}
+.data:hover{
+    background-color: aqua;
+    color: gray;
+}
+.closebtn{
+    background-color: brown;
+    
+    color: white;
+    border: none;
+    width: 5%;
+    cursor: pointer;
+}
+.closebtn:hover{
+    background-color: aqua;
+    color: gray;
+}

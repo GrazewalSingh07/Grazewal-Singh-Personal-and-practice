@@ -1,6 +1,6 @@
  import styled from "styled-components"
- import "./search.css"
- import "./search"
+ 
+  
  
  
 import { useState } from "react"
