@@ -5,7 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+   <style>
+    .container{
+    display: flex;
+    width: 40%;
+    
+  margin: auto;
+  padding: 5%;
+}
+.container>div{
+    
+    margin: auto;
+}
+.lefttooltip {
+    position: relative;
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+  }
+  
+  .lefttooltip .lefttooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  }
+  
+  .lefttooltip:hover .lefttooltiptext {
+    visibility: visible;
+  }
+  .righttooltip {
+    position: relative;
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+  }
+  
+  .righttooltip .righttooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .righttooltip:hover .righttooltiptext {
+    visibility: visible;
+  }
+
+
+
+  .toptooltip {
+    position: relative;
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+  }
+  
+  .toptooltip .toptooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .toptooltip:hover .toptooltiptext {
+    visibility: visible;
+  }
+  .bottomtooltip {
+    position: relative;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .bottomtooltip .bottomtooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .bottomtooltip:hover .bottomtooltiptext {
+    visibility: visible;
+  }
+  
+   </style>
 </head>
 <body>
     <div class="container">

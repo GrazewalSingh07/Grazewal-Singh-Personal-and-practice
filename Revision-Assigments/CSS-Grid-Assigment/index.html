@@ -5,52 +5,209 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="stylesheet" href="./index.css"> -->
 </head>
+<style>
+    .grid-container {
+    display: grid;
+    /* gap: 10px; */
+    width:50%;
+    padding: 10px;
+    margin: auto;
+  }
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+   /* padding: 10px; */
+    font-size: 16px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background-color: #F5E3D7;
+  }
+  
+  .item2 {
+    background-color: #F5E3D7;
+    grid-column: 3 /span 2;
+    
+    grid-row: 1 ;
+  }
+
+  .item3{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding: 15px;
+   
+    
+  }
+  .item4{
+    grid-column:3 ;
+    grid-row: 2;
+    background-color: #FB683D;
+   
+  }
+  .item5 {
+    grid-column: 4 ;
+    grid-row: 2;
+    padding: 20px;
+    
+    background-color: #EBAF4F;
+ 
+  }
+  .item6{
+    background-color: #EBAF4F;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .item7{
+    background-color: #FB683D;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .item8{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .item9{
+    text-align: center;
+    padding: 20px;
+    color: black
+  }
+  .item10{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+   
+     
+  }
+  .item11{
+    grid-column: 3 / span 2;
+    grid-row: 4;
+    background-color: #FB683D;
+  }
+  .item12{
+    grid-column: 1 / span 2;
+    grid-row: 5;
+    background-color: #EBAF4F;
+  }
+  .item13{
+    grid-column: 3 / span 2;
+    grid-row: 5;
+  }
+  .item14{
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    background-color: #FB683D;
+  }
+  .item15{
+    grid-column:3;
+    grid-row: 6;
+  }
+  .item16{
+    grid-column: 4;
+    grid-row: 6;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: smaller;
+  }
+
+  .item17{
+    grid-column: 1 / span 4;
+    grid-row: 7;
+    text-align: center;
+    padding: 20px;
+    background-color: #FB683D;
+  }
+</style>
 <body>
     <div class="grid-container">
         <div class="item1 grid-item">
-            <img src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fG1hbiUyMHVzaW5nJTIwdGFibGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="#">
+            <img style="height: 100%;" src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fG1hbiUyMHVzaW5nJTIwdGFibGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="#">
         </div>
         <div class="item2 grid-item">
-           <div style="padding: 10px;">
+           <div style="padding:20px">
             <div style="display:flex;">
-                <p style="padding: 5px;">HOME</p>
-                <p style="padding: 5px;">ABOUT ME</p>
-                <p style="padding: 5px;">EXPERIENCES</p>
-                <p style="padding: 5px;">TESTIMONIAL</p>
-                <p style="padding: 5px;">CONTACT</p>
+                <p style="padding: 5px; font-size: smaller;">HOME</p>
+                <p style="padding: 5px; font-size: smaller;">ABOUT ME</p>
+                <p style="padding: 5px; font-size: smaller;">EXPERIENCES</p>
+                <p style="padding: 5px; font-size: smaller;">TESTIMONIAL</p>
+                <p style="padding: 5px; font-size: smaller;">CONTACT</p>
             </div>
             <div>
                 <p>WELCOME TO MY WEBSITE</p>
-                <h1 style="font-weight: 400;">Hello, I am Stimulus currenty based in New York city</h1>
+                <h1 style="font-weight: 400;font-size: large;">Hello, I am Stimulus currenty based in New York city</h1>
                 <p style="color:rgb(176, 147, 109)">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam autem unde similique inventore suscipit ratione, nihil maiores illo facere voluptatibus ab doloribus, alias corrupti ex? At quam esse deserunt.</p>
                 <button>GET STARTED</button>
             </div>
            </div>
         </div>
-         <div class="item3 grid-item">3</div>
+         <div class="item3 grid-item">
+            <p style="font-size: larger;">Donec auctor</p>
+            <p style="color: #EBAF4F;">Sed vulpuatate vite quis bubendum</p>
+            <p style="font-size: smaller;color:grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad debitis voluptatibus ut quaerat accusamus voluptate veritatis reprehenderit </p>
+            <p style="font-size: smaller;color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. At deserunt ipsam ratione dolorum molestias debitis aliquid, quis corrupti consequuntur </p>
+         </div>
         <div class="item4 grid-item">
-            <img style="width:250px" src="https://images.unsplash.com/photo-1535467269829-2959b350bdb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHxtYW4lMjByZWFkaW5nJTIwYm9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="#"> </div>
+            <img style="width: 100%; height: 100%" src="https://images.unsplash.com/photo-1595347636810-54308c9870f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbiUyMHJlYWRpbmclMjBib29rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="#">
+         </div>
         <div class="item5 grid-item">
+             <p style="font-size:larger;">My Skills</p>
+             <p style="font-size: smaller ; width: auto;">Photoshop, HTML CSS JS , Web Design</p>
 
         </div>
-        <div class="item6 grid-item">6</div>
-        <div class="item7 grid-item">7</div>
-        <div class="item8 grid-item">8 </div>
-        <div class="item9 grid-item">9</div>
-        <div class="item10 grid-item"> <img style="width:auto"src="https://images.unsplash.com/photo-1588058365548-9efe5acb8077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fG1hbiUyMHdpdGglMjBwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="#">  </div>
+        <div class="item6 grid-item">
+            <img style="width: 15%;" src="https://cdn-icons-png.flaticon.com/512/4372/4372820.png" alt="">
+           <p>Interface Dsign</p>
+           <p>Phasellus vulutate tekllus nect totsd</p>
+           <p>vanus elemenft. Curbitu at</p>
+           <p>pulvinar ante</p>
+
+        </div>
+        <div class="item7 grid-item">
+            <img style="width: 15%;" src="https://i.pinimg.com/originals/99/f0/3f/99f03fdee90d871d3d1e718c82feb8be.png" alt="">
+            <p>Interface Dsign</p>
+            <p>Phasellus vulutate tekllus nect totsd</p>
+            <p>vanus elemenft. Curbitu at</p>
+            <p>pulvinar ante</p>
+        </div>
+        <div class="item8 grid-item">
+            <img style="width: 15%" src="https://cdn-icons-png.flaticon.com/512/3616/3616049.png" alt="">
+            <p>Interface Dsign</p>
+            <p>Phasellus vulutate tekllus nect totsd</p>
+            <p>vanus elemenft. Curbitu at</p>
+            <p>pulvinar ante</p> </div>
+        <div class="item9 grid-item">
+            <img style="width: 15%;" src="data:image/png;base64,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" alt="">
+            <p>Interface Dsign</p>
+            <p>Phasellus vulutate tekllus nect totsd</p>
+            <p>vanus elemenft. Curbitu at</p>
+            <p>pulvinar ante</p>
+        </div>
+        <div class="item10 grid-item"> <img style="width:100%; height: 100%;"src="https://images.unsplash.com/photo-1588058365548-9efe5acb8077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fG1hbiUyMHdpdGglMjBwaG9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="#">  </div>
         <div class="item11 grid-item">11</div>
         <div class="item12 grid-item">12</div>
-        <div class="item13 grid-item"><img style="width:50vh" src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="#"></div>
+        <div class="item13 grid-item"><img style="width:100%; height: 100%;" src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="#"></div>
         <div class="item14 grid-item">14 </div>
         <div class="item15 grid-item">
-            <img style="width:250px" src="https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFuJTIwdXNpbmclMjBsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="#">
+            <img style="width:100%; height: 100%;" src="https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFuJTIwdXNpbmclMjBsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="#">
         </div>
-        <div class="item16 grid-item"> </div>
-        <div class="item17 grid-item">17</div>
-          
-       
+        <div class="item16 grid-item">
+            <p>Visit my office</p>
+            <p>456 New Street 22000, New york City, USA</p>
+
+            <div>
+                <p>Contact</p>
+
+            </div>
+         </div>
+        <div class="item17 grid-item"> <img width="60%" height="90%" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="https://images.indianexpress.com/2017/05/google-maps-759.jpg?w=389" alt=""></div>  
 
         </div>
         
