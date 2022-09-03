@@ -1,0 +1,35 @@
+-->Explain in brief what is node js?
+Node js is javaScript runtime environment,  allows you todevelop scalable web applications effortlessly. This envirnment is built on top of google chrom'e jS engine V8.
+Node js is useful for developeing applications that  require a persistent connecgion from browser tothe server and is oftwn used for real time applications such as chat, new feed and web push
+notifications.
+
+How is node js non-blocking?
+--> Nonde blocking methods are executed asynchronously. Asynchronosuslymeans that the 
+program may or may not necessarily execute line by line.The program calls the function and move to the next operation 
+and does not wait for it to return.
+
+What is throughput?
+-->What does throughput mean in networking?
+In data transmission, network throughput is the amount of data moved successfully
+ from one place to another in a given time period,
+
+
+ How is Node js having high I/O throughput?
+ --->Node js is having high I/O throughput because ofits 
+ asynchronous behaviour
+
+
+What are CPU intensive tasks?
+-->Compute-intensive is a term that applies to any computer application that demands a lot of computation.
+ 
+It means that too many (or too long) CPU-intensive tasks could keep the main thread too busy to handle other requests,
+ practically blocking it.
+
+
+ How can you end up blocking your main thread in node.js?
+ --> We can end up blocking your main thread in node.js
+ by having CPU intensive tasks.
+ too many (or too long) CPU-intensive tasks could keep the main thread too busy to handle other requests,
+ practically blocking it.
+
+ What is the event loop? in node js
